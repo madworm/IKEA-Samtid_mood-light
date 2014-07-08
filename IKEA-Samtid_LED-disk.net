@@ -1,0 +1,9 @@
+(export (version D)
+  (design
+    (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_disc/IKEA-Samtid_LED-disk.sch)
+    (date "Tue 08 Jul 2014 12:38:35 PM CEST")
+    (tool "Eeschema (2014-06-29 BZR 4957)-product"))
+  (components)
+  (libparts)
+  (libraries)
+  (nets))
