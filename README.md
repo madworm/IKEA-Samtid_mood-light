@@ -4,8 +4,6 @@ IKEA-Samtid_LED-disk
 
 LAYOUT FILES: Circular LED-extension board for IKEA Samtid lamps.
 
-Needs KiCad BZR 4958 and later to open.
-
 
 ---
 
