@@ -30,13 +30,13 @@ LIBS:siliconi
 LIBS:opto
 LIBS:contrib
 LIBS:valves
-LIBS:IKEA-Samtid_LED-disk-cache
+LIBS:IKEA-Samtid_mood-light-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "IKEA-Samtid_LED-disk"
+Title "IKEA-Samtid_mood-light"
 Date "10 Jul 2014"
 Rev "0.10"
 Comp "2014 - blog.spitzenpfeil.org"

@@ -1,8 +1,8 @@
 
-IKEA-Samtid_LED-disk
-====================
+IKEA-Samtid_mood-light
+======================
 
-LAYOUT FILES: Circular LED-extension board for IKEA Samtid lamps.
+LAYOUT FILES: Circular extension board for IKEA Samtid lamps.
 
 
 ---

@@ -54,7 +54,7 @@ LibName31=valves
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=IKEA-Samtid_LED-disk.net
+LastNetListRead=IKEA-Samtid_mood-light.net
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0

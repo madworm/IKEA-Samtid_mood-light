@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_LED-disk/IKEA-Samtid_LED-disk.sch)
-    (date "Thu 10 Jul 2014 09:06:53 PM CEST")
+    (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.sch)
+    (date "Fri 11 Jul 2014 01:04:18 PM CEST")
     (tool "Eeschema (2014-06-29 BZR 4957)-product"))
   (components
     (comp (ref IC1)
@@ -706,6 +706,25 @@
       (sheetpath (names /WS2812B-LEDs-2/) (tstamps /53C16B71/))
       (tstamp 53C25489)))
   (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
     (libpart (lib device) (part R)
       (description Resistance)
       (footprints
@@ -728,6 +747,18 @@
       (pins
         (pin (num 1) (name P1) (type passive))
         (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
     (libpart (lib atmel) (part ATMEGA168A-A)
       (aliases
         (alias ATMEGA48A-A)
@@ -776,17 +807,6 @@
         (pin (num 30) (name "(PCINT16/RXD)PD0") (type BiDi))
         (pin (num 31) (name "(PCINT17/TXD)PD1") (type BiDi))
         (pin (num 32) (name "(PCINT18/INT0)PD2") (type BiDi))))
-    (libpart (lib my_parts) (part MADW__AVR_ISP)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) MADW__AVR_ISP))
-      (pins
-        (pin (num 1) (name MISO) (type passive))
-        (pin (num 2) (name VTG) (type passive))
-        (pin (num 3) (name SCK) (type passive))
-        (pin (num 4) (name MOSI) (type passive))
-        (pin (num 5) (name RST) (type passive))
-        (pin (num 6) (name GND) (type passive))))
     (libpart (lib my_parts) (part DIODESCH)
       (description "Diode schottky")
       (footprints
@@ -808,44 +828,24 @@
         (pin (num 2) (name DOUT) (type output))
         (pin (num 3) (name GND) (type power_in))
         (pin (num 4) (name DIN) (type input))))
-    (libpart (lib conn) (part CONN_6)
-      (description "ymbole general de connecteur")
+    (libpart (lib my_parts) (part MADW__AVR_ISP)
       (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_6))
+        (field (name Reference) JP)
+        (field (name Value) MADW__AVR_ISP))
       (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))
-        (pin (num 5) (name 5) (type passive))
-        (pin (num 6) (name 6) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FUSE)
-      (fields
-        (field (name Reference) F)
-        (field (name Value) FUSE))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input)))))
+        (pin (num 1) (name MISO) (type passive))
+        (pin (num 2) (name VTG) (type passive))
+        (pin (num 3) (name SCK) (type passive))
+        (pin (num 4) (name MOSI) (type passive))
+        (pin (num 5) (name RST) (type passive))
+        (pin (num 6) (name GND) (type passive)))))
   (libraries
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
-    (library (logical my_parts)
-      (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
+    (library (logical my_parts)
+      (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib))
     (library (logical atmel)
       (uri /home/robert/Arduino/KiCAD/kicad_sources/library-repos/kicad-library/library/atmel.lib)))
   (nets

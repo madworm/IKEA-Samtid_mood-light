@@ -30,7 +30,7 @@ LIBS:siliconi
 LIBS:opto
 LIBS:contrib
 LIBS:valves
-LIBS:IKEA-Samtid_LED-disk-cache
+LIBS:IKEA-Samtid_mood-light-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
