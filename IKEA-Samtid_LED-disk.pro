@@ -1,4 +1,4 @@
-update=Tue 27 May 2014 10:21:32 PM CEST
+update=Fri 11 Jul 2014 01:52:06 AM CEST
 version=1
 last_client=kicad
 [general]
@@ -58,8 +58,8 @@ LastNetListRead=IKEA-Samtid_LED-disk.net
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=1.8
-PadSizeV=3.4
+PadSizeH=1.4
+PadSizeV=1.8
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.2
@@ -71,5 +71,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.2
 ModuleOutlineThickness=0.2
-[pcbnew/libraries]
-LibDir=
