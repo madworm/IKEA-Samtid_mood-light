@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Thu 10 Jul 2014 09:12:10 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 12 Jul 2014 02:22:50 AM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -480,28 +480,28 @@ BeginCmp
 TimeStamp = /53C35916;
 Reference = DS1;
 ValeurCmp = 6A;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C3478B;
 Reference = F1;
 ValeurCmp = 2A-poly;
-IdModule  = ;
+IdModule  = my_parts:MADW__R1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C34893;
 Reference = F2;
 ValeurCmp = 2A-poly;
-IdModule  = ;
+IdModule  = my_parts:MADW__R1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BED0DB;
 Reference = IC1;
 ValeurCmp = ATMEGA168PA-A;
-IdModule  = my_parts:MADW__TQFP_32_7x7;
+IdModule  = SMD_Packages:QFN32;
 EndCmp
 
 BeginCmp
@@ -978,6 +978,13 @@ TimeStamp = /53BEDD93;
 Reference = R1;
 ValeurCmp = 10k;
 IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C088B5;
+Reference = X1;
+ValeurCmp = CSTCE16M0V53-R0;
+IdModule  = my_parts:MADW__murata-resonator__CSTCE16M0V53-R0;
 EndCmp
 
 EndListe

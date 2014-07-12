@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "10 Jul 2014"
+Date "12 Jul 2014"
 Rev "0.10"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -402,8 +402,6 @@ NoConn ~ 5200 2300
 NoConn ~ 5200 1650
 NoConn ~ 5200 1550
 NoConn ~ 5200 1450
-NoConn ~ 5300 2050
-NoConn ~ 5300 2150
 $Comp
 L PWR_FLAG #FLG011
 U 1 1 53BF079C
@@ -581,7 +579,7 @@ L DIODESCH DS1
 U 1 1 53C35916
 P 5100 4850
 F 0 "DS1" H 5100 4950 40  0000 C CNN
-F 1 "6A" H 5100 4750 40  0000 C CNN
+F 1 "757-CMS04TE12" H 5100 4750 40  0000 C CNN
 F 2 "" H 5100 4850 60  0000 C CNN
 F 3 "" H 5100 4850 60  0000 C CNN
 	1    5100 4850
@@ -601,4 +599,38 @@ Wire Notes Line
 	6150 4400 3400 4400
 Wire Notes Line
 	3400 4400 3400 4550
+$Comp
+L generic_resonator X1
+U 1 1 53C088B5
+P 6200 1650
+F 0 "X1" H 6200 2000 60  0000 C CNN
+F 1 "CSTCE16M0V53-R0" H 6200 1900 60  0000 C CNN
+F 2 "" H 6200 1550 60  0000 C CNN
+F 3 "" H 6200 1550 60  0000 C CNN
+	1    6200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR017
+U 1 1 53C08AC4
+P 6200 2050
+F 0 "#PWR017" H 6200 2050 30  0001 C CNN
+F 1 "GND" H 6200 1980 30  0001 C CNN
+F 2 "" H 6200 2050 60  0000 C CNN
+F 3 "" H 6200 2050 60  0000 C CNN
+	1    6200 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2000 6200 2050
+Text Label 5850 1650 3    60   ~ 0
+XTAL1
+Text Label 6550 1650 3    60   ~ 0
+XTAL2
+Wire Wire Line
+	6550 1550 6550 1650
+Wire Wire Line
+	5850 1550 5850 1650
+Text Notes 4850 5150 0    39   ~ 0
+Toshiba, 5A\napprox. SMA package
 $EndSCHEMATC
