@@ -38,24 +38,13 @@ encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
 Date "12 Jul 2014"
-Rev "0.10"
+Rev "0.11"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ATMEGA168PA-A IC1
-U 1 1 53BED0DB
-P 4200 2550
-F 0 "IC1" H 3450 3800 40  0000 L BNN
-F 1 "ATMEGA168PA-A" H 4600 1150 40  0000 L BNN
-F 2 "TQFP32" H 4200 2550 30  0000 C CIN
-F 3 "" H 4200 2550 60  0000 C CNN
-	1    4200 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C1
 U 1 1 53BED138
@@ -633,4 +622,15 @@ Wire Wire Line
 	5850 1550 5850 1650
 Text Notes 4850 5150 0    39   ~ 0
 Toshiba, 5A\napprox. SMA package
+$Comp
+L ATMEGA168PA-M IC1
+U 1 1 53C14D61
+P 4200 2550
+F 0 "IC1" H 3450 3800 40  0000 L BNN
+F 1 "ATMEGA168PA-M" H 4600 1150 40  0000 L BNN
+F 2 "MLF/QFN32" H 4200 2550 30  0000 C CIN
+F 3 "" H 4200 2550 60  0000 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
