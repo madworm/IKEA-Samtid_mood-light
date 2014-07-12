@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 12 Jul 2014 05:43:42 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 12 Jul 2014 07:31:42 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -964,6 +964,13 @@ TimeStamp = /53C33DDA;
 Reference = P2;
 ValeurCmp = POWER;
 IdModule  = my_parts:MADW__SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C1717C;
+Reference = P3;
+ValeurCmp = MCU-Board;
+IdModule  = my_parts:MADW__SIL-6;
 EndCmp
 
 BeginCmp
