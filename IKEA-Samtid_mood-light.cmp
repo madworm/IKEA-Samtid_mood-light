@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 12 Jul 2014 02:22:50 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 12 Jul 2014 05:43:42 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -18,13 +18,6 @@ BeginCmp
 TimeStamp = /53BEE8ED;
 Reference = C3;
 ValeurCmp = 100nF;
-IdModule  = my_parts:MADW__C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53BEDD52;
-Reference = C4;
-ValeurCmp = DNP;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
@@ -479,7 +472,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53C35916;
 Reference = DS1;
-ValeurCmp = 6A;
+ValeurCmp = 757-CMS04TE12;
 IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
@@ -498,9 +491,9 @@ IdModule  = my_parts:MADW__R1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BED0DB;
+TimeStamp = /53C14D61;
 Reference = IC1;
-ValeurCmp = ATMEGA168PA-A;
+ValeurCmp = ATMEGA168PA-M;
 IdModule  = SMD_Packages:QFN32;
 EndCmp
 
@@ -508,7 +501,7 @@ BeginCmp
 TimeStamp = /53BED211;
 Reference = JP1;
 ValeurCmp = AVR_ISP;
-IdModule  = my_parts:MADW__PIN_ARRAY_3x2_2.54mm;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
 EndCmp
 
 BeginCmp
@@ -974,10 +967,17 @@ IdModule  = my_parts:MADW__SIL-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BEDD93;
-Reference = R1;
-ValeurCmp = 10k;
-IdModule  = my_parts:MADW__R0603_2;
+TimeStamp = /53C15F1B;
+Reference = SW1;
+ValeurCmp = MODE;
+IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C15FEF;
+Reference = SW2;
+ValeurCmp = +/-;
+IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
 EndCmp
 
 BeginCmp
