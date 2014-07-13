@@ -965,23 +965,8 @@ F 3 "" V 3950 4600 60  0000 C CNN
 	1    4000 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR051
-U 1 1 53C2536F
-P 4600 4900
-F 0 "#PWR051" H 4600 4900 30  0001 C CNN
-F 1 "GND" H 4600 4830 30  0001 C CNN
-F 2 "" H 4600 4900 60  0000 C CNN
-F 3 "" H 4600 4900 60  0000 C CNN
-	1    4600 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 4400 4600 4400
-Wire Wire Line
-	4500 4800 4600 4800
-Wire Wire Line
-	4600 4800 4600 4900
 $Comp
 L MADW__WS2812B LED54
 U 1 1 53C2537A
@@ -993,23 +978,8 @@ F 3 "" V 3950 5500 60  0000 C CNN
 	1    4000 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR053
-U 1 1 53C25387
-P 4600 5800
-F 0 "#PWR053" H 4600 5800 30  0001 C CNN
-F 1 "GND" H 4600 5730 30  0001 C CNN
-F 2 "" H 4600 5800 60  0000 C CNN
-F 3 "" H 4600 5800 60  0000 C CNN
-	1    4600 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 5300 4600 5300
-Wire Wire Line
-	4500 5700 4600 5700
-Wire Wire Line
-	4600 5700 4600 5800
 $Comp
 L MADW__WS2812B LED55
 U 1 1 53C25392
@@ -1021,23 +991,8 @@ F 3 "" V 3950 6400 60  0000 C CNN
 	1    4000 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR055
-U 1 1 53C2539F
-P 4600 6700
-F 0 "#PWR055" H 4600 6700 30  0001 C CNN
-F 1 "GND" H 4600 6630 30  0001 C CNN
-F 2 "" H 4600 6700 60  0000 C CNN
-F 3 "" H 4600 6700 60  0000 C CNN
-	1    4600 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 6200 4600 6200
-Wire Wire Line
-	4500 6600 4600 6600
-Wire Wire Line
-	4600 6600 4600 6700
 $Comp
 L MADW__WS2812B LED56
 U 1 1 53C253AA
@@ -1049,38 +1004,8 @@ F 3 "" V 3950 7300 60  0000 C CNN
 	1    4000 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR056
-U 1 1 53C253B1
-P 3400 6950
-F 0 "#PWR056" H 3400 7040 20  0001 C CNN
-F 1 "+5V" H 3400 7040 30  0000 C CNN
-F 2 "" H 3400 6950 60  0000 C CNN
-F 3 "" H 3400 6950 60  0000 C CNN
-	1    3400 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR057
-U 1 1 53C253B7
-P 4600 7600
-F 0 "#PWR057" H 4600 7600 30  0001 C CNN
-F 1 "GND" H 4600 7530 30  0001 C CNN
-F 2 "" H 4600 7600 60  0000 C CNN
-F 3 "" H 4600 7600 60  0000 C CNN
-	1    4600 7600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4500 7100 4600 7100
-Wire Wire Line
-	3400 6950 3400 7100
-Wire Wire Line
-	3400 7100 3500 7100
-Wire Wire Line
-	4500 7500 4600 7500
-Wire Wire Line
-	4600 7500 4600 7600
 Wire Wire Line
 	3500 1200 3450 1200
 Wire Wire Line
@@ -1154,23 +1079,8 @@ F 3 "" V 5300 1000 60  0000 C CNN
 	1    5350 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR059
-U 1 1 53C253EE
-P 5950 1300
-F 0 "#PWR059" H 5950 1300 30  0001 C CNN
-F 1 "GND" H 5950 1230 30  0001 C CNN
-F 2 "" H 5950 1300 60  0000 C CNN
-F 3 "" H 5950 1300 60  0000 C CNN
-	1    5950 1300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 800  5950 800 
-Wire Wire Line
-	5850 1200 5950 1200
-Wire Wire Line
-	5950 1200 5950 1300
 $Comp
 L MADW__WS2812B LED58
 U 1 1 53C253F9
@@ -1182,23 +1092,8 @@ F 3 "" V 5300 1900 60  0000 C CNN
 	1    5350 1900
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR061
-U 1 1 53C25406
-P 5950 2200
-F 0 "#PWR061" H 5950 2200 30  0001 C CNN
-F 1 "GND" H 5950 2130 30  0001 C CNN
-F 2 "" H 5950 2200 60  0000 C CNN
-F 3 "" H 5950 2200 60  0000 C CNN
-	1    5950 2200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 1700 5950 1700
-Wire Wire Line
-	5850 2100 5950 2100
-Wire Wire Line
-	5950 2100 5950 2200
 $Comp
 L MADW__WS2812B LED59
 U 1 1 53C25411
@@ -1210,38 +1105,8 @@ F 3 "" V 5300 2800 60  0000 C CNN
 	1    5350 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR062
-U 1 1 53C25418
-P 4750 2450
-F 0 "#PWR062" H 4750 2540 20  0001 C CNN
-F 1 "+5V" H 4750 2540 30  0000 C CNN
-F 2 "" H 4750 2450 60  0000 C CNN
-F 3 "" H 4750 2450 60  0000 C CNN
-	1    4750 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR063
-U 1 1 53C2541E
-P 5950 3100
-F 0 "#PWR063" H 5950 3100 30  0001 C CNN
-F 1 "GND" H 5950 3030 30  0001 C CNN
-F 2 "" H 5950 3100 60  0000 C CNN
-F 3 "" H 5950 3100 60  0000 C CNN
-	1    5950 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 2600 5950 2600
-Wire Wire Line
-	4750 2450 4750 2600
-Wire Wire Line
-	4750 2600 4850 2600
-Wire Wire Line
-	5850 3000 5950 3000
-Wire Wire Line
-	5950 3000 5950 3100
 $Comp
 L MADW__WS2812B LED60
 U 1 1 53C25429
@@ -1253,38 +1118,8 @@ F 3 "" V 5300 3700 60  0000 C CNN
 	1    5350 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR064
-U 1 1 53C25430
-P 4750 3350
-F 0 "#PWR064" H 4750 3440 20  0001 C CNN
-F 1 "+5V" H 4750 3440 30  0000 C CNN
-F 2 "" H 4750 3350 60  0000 C CNN
-F 3 "" H 4750 3350 60  0000 C CNN
-	1    4750 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR065
-U 1 1 53C25436
-P 5950 4000
-F 0 "#PWR065" H 5950 4000 30  0001 C CNN
-F 1 "GND" H 5950 3930 30  0001 C CNN
-F 2 "" H 5950 4000 60  0000 C CNN
-F 3 "" H 5950 4000 60  0000 C CNN
-	1    5950 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 3500 5950 3500
-Wire Wire Line
-	4750 3350 4750 3500
-Wire Wire Line
-	4750 3500 4850 3500
-Wire Wire Line
-	5850 3900 5950 3900
-Wire Wire Line
-	5950 3900 5950 4000
 $Comp
 L MADW__WS2812B LED61
 U 1 1 53C25441
@@ -1296,38 +1131,8 @@ F 3 "" V 5300 4600 60  0000 C CNN
 	1    5350 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR066
-U 1 1 53C25448
-P 4750 4250
-F 0 "#PWR066" H 4750 4340 20  0001 C CNN
-F 1 "+5V" H 4750 4340 30  0000 C CNN
-F 2 "" H 4750 4250 60  0000 C CNN
-F 3 "" H 4750 4250 60  0000 C CNN
-	1    4750 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR067
-U 1 1 53C2544E
-P 5950 4900
-F 0 "#PWR067" H 5950 4900 30  0001 C CNN
-F 1 "GND" H 5950 4830 30  0001 C CNN
-F 2 "" H 5950 4900 60  0000 C CNN
-F 3 "" H 5950 4900 60  0000 C CNN
-	1    5950 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 4400 5950 4400
-Wire Wire Line
-	4750 4250 4750 4400
-Wire Wire Line
-	4750 4400 4850 4400
-Wire Wire Line
-	5850 4800 5950 4800
-Wire Wire Line
-	5950 4800 5950 4900
 $Comp
 L MADW__WS2812B LED62
 U 1 1 53C25459
@@ -1339,38 +1144,8 @@ F 3 "" V 5300 5500 60  0000 C CNN
 	1    5350 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR068
-U 1 1 53C25460
-P 4750 5150
-F 0 "#PWR068" H 4750 5240 20  0001 C CNN
-F 1 "+5V" H 4750 5240 30  0000 C CNN
-F 2 "" H 4750 5150 60  0000 C CNN
-F 3 "" H 4750 5150 60  0000 C CNN
-	1    4750 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR069
-U 1 1 53C25466
-P 5950 5800
-F 0 "#PWR069" H 5950 5800 30  0001 C CNN
-F 1 "GND" H 5950 5730 30  0001 C CNN
-F 2 "" H 5950 5800 60  0000 C CNN
-F 3 "" H 5950 5800 60  0000 C CNN
-	1    5950 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 5300 5950 5300
-Wire Wire Line
-	4750 5150 4750 5300
-Wire Wire Line
-	4750 5300 4850 5300
-Wire Wire Line
-	5850 5700 5950 5700
-Wire Wire Line
-	5950 5700 5950 5800
 $Comp
 L MADW__WS2812B LED63
 U 1 1 53C25471
@@ -1382,38 +1157,8 @@ F 3 "" V 5300 6400 60  0000 C CNN
 	1    5350 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR070
-U 1 1 53C25478
-P 4750 6050
-F 0 "#PWR070" H 4750 6140 20  0001 C CNN
-F 1 "+5V" H 4750 6140 30  0000 C CNN
-F 2 "" H 4750 6050 60  0000 C CNN
-F 3 "" H 4750 6050 60  0000 C CNN
-	1    4750 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR071
-U 1 1 53C2547E
-P 5950 6700
-F 0 "#PWR071" H 5950 6700 30  0001 C CNN
-F 1 "GND" H 5950 6630 30  0001 C CNN
-F 2 "" H 5950 6700 60  0000 C CNN
-F 3 "" H 5950 6700 60  0000 C CNN
-	1    5950 6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 6200 5950 6200
-Wire Wire Line
-	4750 6050 4750 6200
-Wire Wire Line
-	4750 6200 4850 6200
-Wire Wire Line
-	5850 6600 5950 6600
-Wire Wire Line
-	5950 6600 5950 6700
 $Comp
 L MADW__WS2812B LED64
 U 1 1 53C25489
@@ -1425,38 +1170,8 @@ F 3 "" V 5300 7300 60  0000 C CNN
 	1    5350 7300
 	1    0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR072
-U 1 1 53C25490
-P 4750 6950
-F 0 "#PWR072" H 4750 7040 20  0001 C CNN
-F 1 "+5V" H 4750 7040 30  0000 C CNN
-F 2 "" H 4750 6950 60  0000 C CNN
-F 3 "" H 4750 6950 60  0000 C CNN
-	1    4750 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR073
-U 1 1 53C25496
-P 5950 7600
-F 0 "#PWR073" H 5950 7600 30  0001 C CNN
-F 1 "GND" H 5950 7530 30  0001 C CNN
-F 2 "" H 5950 7600 60  0000 C CNN
-F 3 "" H 5950 7600 60  0000 C CNN
-	1    5950 7600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5850 7100 5950 7100
-Wire Wire Line
-	4750 6950 4750 7100
-Wire Wire Line
-	4750 7100 4850 7100
-Wire Wire Line
-	5850 7500 5950 7500
-Wire Wire Line
-	5950 7500 5950 7600
 Wire Wire Line
 	4850 1200 4800 1200
 Wire Wire Line
@@ -1551,4 +1266,132 @@ Wire Wire Line
 	7250 1550 7250 1600
 Wire Wire Line
 	7250 2050 7250 2000
+Text HLabel 1800 1200 2    60   Input ~ 0
+GND
+Text HLabel 800  800  3    60   Input ~ 0
+VCC
+Text HLabel 3150 1200 2    60   Input ~ 0
+GND
+Text HLabel 800  1700 3    60   Input ~ 0
+VCC
+Text HLabel 3150 2100 2    60   Input ~ 0
+GND
+Text HLabel 2150 800  3    60   Input ~ 0
+VCC
+Text HLabel 1800 3000 2    60   Input ~ 0
+GND
+Text HLabel 2150 2600 3    60   Input ~ 0
+VCC
+Text HLabel 1800 2100 2    60   Input ~ 0
+GND
+Text HLabel 2150 1700 3    60   Input ~ 0
+VCC
+Text HLabel 4500 1200 2    60   Input ~ 0
+GND
+Text HLabel 800  2600 3    60   Input ~ 0
+VCC
+Text HLabel 3150 3000 2    60   Input ~ 0
+GND
+Text HLabel 4850 800  3    60   Input ~ 0
+VCC
+Text HLabel 3150 6600 2    60   Input ~ 0
+GND
+Text HLabel 2150 3500 3    60   Input ~ 0
+VCC
+Text HLabel 3150 5700 2    60   Input ~ 0
+GND
+Text HLabel 4850 1700 3    60   Input ~ 0
+VCC
+Text HLabel 3150 4800 2    60   Input ~ 0
+GND
+Text HLabel 2150 5300 3    60   Input ~ 0
+VCC
+Text HLabel 4500 7500 1    60   Input ~ 0
+GND
+Text HLabel 2150 4400 3    60   Input ~ 0
+VCC
+Text HLabel 1800 4800 2    60   Input ~ 0
+GND
+Text HLabel 800  3500 3    60   Input ~ 0
+VCC
+Text HLabel 1800 3900 2    60   Input ~ 0
+GND
+Text HLabel 800  4400 3    60   Input ~ 0
+VCC
+Text HLabel 1800 7500 1    60   Input ~ 0
+GND
+Text HLabel 800  7100 3    60   Input ~ 0
+VCC
+Text HLabel 1800 6600 2    60   Input ~ 0
+GND
+Text HLabel 800  6200 3    60   Input ~ 0
+VCC
+Text HLabel 3150 3900 2    60   Input ~ 0
+GND
+Text HLabel 800  5300 3    60   Input ~ 0
+VCC
+Text HLabel 1800 5700 2    60   Input ~ 0
+GND
+Text HLabel 3500 7100 3    60   Input ~ 0
+VCC
+Text HLabel 5850 1200 2    60   Input ~ 0
+GND
+Text HLabel 4850 7100 3    60   Input ~ 0
+VCC
+Text HLabel 4500 2100 2    60   Input ~ 0
+GND
+Text HLabel 3500 5300 3    60   Input ~ 0
+VCC
+Text HLabel 4500 3000 2    60   Input ~ 0
+GND
+Text HLabel 3500 6200 3    60   Input ~ 0
+VCC
+Text HLabel 4500 3900 2    60   Input ~ 0
+GND
+Text HLabel 4850 6200 3    60   Input ~ 0
+VCC
+Text HLabel 5850 2100 2    60   Input ~ 0
+GND
+Text HLabel 4850 5300 3    60   Input ~ 0
+VCC
+Text HLabel 5850 3000 2    60   Input ~ 0
+GND
+Text HLabel 4850 2600 3    60   Input ~ 0
+VCC
+Text HLabel 5850 3900 2    60   Input ~ 0
+GND
+Text HLabel 4850 4400 3    60   Input ~ 0
+VCC
+Text HLabel 5850 4800 2    60   Input ~ 0
+GND
+Text HLabel 3500 4400 3    60   Input ~ 0
+VCC
+Text HLabel 4500 4800 2    60   Input ~ 0
+GND
+Text HLabel 3500 3500 3    60   Input ~ 0
+VCC
+Text HLabel 4500 5700 2    60   Input ~ 0
+GND
+Text HLabel 3500 1700 3    60   Input ~ 0
+VCC
+Text HLabel 4500 6600 2    60   Input ~ 0
+GND
+Text HLabel 3500 2600 3    60   Input ~ 0
+VCC
+Text HLabel 5850 5700 2    60   Input ~ 0
+GND
+Text HLabel 4850 3500 3    60   Input ~ 0
+VCC
+Text HLabel 5850 6600 2    60   Input ~ 0
+GND
+Text HLabel 3500 800  3    60   Input ~ 0
+VCC
+Text HLabel 5850 7500 2    60   Input ~ 0
+GND
+Text HLabel 2150 7100 3    60   Input ~ 0
+VCC
+Text HLabel 3150 7500 1    60   Input ~ 0
+GND
+Text HLabel 2150 6200 3    60   Input ~ 0
+VCC
 $EndSCHEMATC
