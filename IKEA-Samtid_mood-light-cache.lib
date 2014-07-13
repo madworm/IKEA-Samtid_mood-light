@@ -251,20 +251,6 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# VCC
-#
-DEF VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 100 30 H I C CNN
-F1 "VCC" 0 100 30 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-X VCC 1 0 0 0 U 20 20 0 0 W N
-C 0 50 20 0 1 0 N
-P 3 0 1 0  0 0  0 30  0 30 N
-ENDDRAW
-ENDDEF
-#
 # generic_resonator
 #
 DEF generic_resonator X 0 40 Y Y 1 F N
