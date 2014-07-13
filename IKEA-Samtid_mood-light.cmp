@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sun 13 Jul 2014 01:48:53 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sun 13 Jul 2014 06:30:45 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -11,13 +11,6 @@ BeginCmp
 TimeStamp = /53BED1CF;
 Reference = C2;
 ValeurCmp = 1µF;
-IdModule  = my_parts:MADW__C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53BEE8ED;
-Reference = C3;
-ValeurCmp = 100nF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
@@ -474,6 +467,13 @@ TimeStamp = /53C35916;
 Reference = DS1;
 ValeurCmp = 757-CMS04TE12;
 IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2C24C;
+Reference = DS2;
+ValeurCmp = SS14L;
+IdModule  = my_parts:MADW__diode_sub-SMA;
 EndCmp
 
 BeginCmp
@@ -960,24 +960,38 @@ IdModule  = my_parts:MADW__SIL-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C33DDA;
+TimeStamp = /53C36DBC;
 Reference = P2;
 ValeurCmp = POWER;
-IdModule  = my_parts:MADW__SIL-2;
+IdModule  = my_parts:MADW__SIL-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C1717C;
-Reference = P3;
-ValeurCmp = MCU-Board;
-IdModule  = my_parts:MADW__SIL-6;
+TimeStamp = /53C2AA2F;
+Reference = P3.1;
+ValeurCmp = B-to-B-1A;
+IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C1D1B2;
-Reference = R1;
-ValeurCmp = 150R;
-IdModule  = my_parts:MADW__R0603_2;
+TimeStamp = /53C2AAB4;
+Reference = P3.2;
+ValeurCmp = B-to-B-1B;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2AAD1;
+Reference = P4.1;
+ValeurCmp = B-to-B-2A;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2AB16;
+Reference = P4.2;
+ValeurCmp = B-to-B-2B;
+IdModule  = ;
 EndCmp
 
 BeginCmp
