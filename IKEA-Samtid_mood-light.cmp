@@ -1,15 +1,8 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sun 13 Jul 2014 07:40:23 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Mon 14 Jul 2014 01:17:05 AM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
 Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = my_parts:MADW__C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53BED1CF;
-Reference = C2;
 ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
@@ -995,16 +988,44 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /53C33B25;
+Reference = Q1;
+ValeurCmp = BSS138;
+IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C3227B;
+Reference = Q2;
+ValeurCmp = BSS138;
+IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C34AC0;
+Reference = Rp1;
+ValeurCmp = 4k7;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C35249;
+Reference = Rp2;
+ValeurCmp = 4k7;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
 TimeStamp = /53C15F1B;
 Reference = SW1;
-ValeurCmp = MODE;
+ValeurCmp = ENTER;
 IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C15FEF;
 Reference = SW2;
-ValeurCmp = +/-;
+ValeurCmp = MODE;
 IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
 EndCmp
 
