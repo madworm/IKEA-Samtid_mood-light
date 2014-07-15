@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "14 Jul 2014"
-Rev "0.17"
+Date "15 Jul 2014"
+Rev "0.19"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -195,34 +195,34 @@ $EndComp
 $Comp
 L FUSE F1
 U 1 1 53C3478B
-P 8550 2500
-F 0 "F1" H 8650 2550 40  0000 C CNN
-F 1 "2A-poly" H 8450 2450 40  0000 C CNN
-F 2 "" H 8550 2500 60  0000 C CNN
-F 3 "" H 8550 2500 60  0000 C CNN
-	1    8550 2500
+P 9150 2500
+F 0 "F1" H 9250 2550 40  0000 C CNN
+F 1 "3A-poly" H 9050 2450 40  0000 C CNN
+F 2 "" H 9150 2500 60  0000 C CNN
+F 3 "" H 9150 2500 60  0000 C CNN
+	1    9150 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L FUSE F2
 U 1 1 53C34893
-P 8550 2800
-F 0 "F2" H 8650 2850 40  0000 C CNN
-F 1 "2A-poly" H 8450 2750 40  0000 C CNN
-F 2 "" H 8550 2800 60  0000 C CNN
-F 3 "" H 8550 2800 60  0000 C CNN
-	1    8550 2800
+P 9150 2800
+F 0 "F2" H 9250 2850 40  0000 C CNN
+F 1 "3A-poly" H 9050 2750 40  0000 C CNN
+F 2 "" H 9150 2800 60  0000 C CNN
+F 3 "" H 9150 2800 60  0000 C CNN
+	1    9150 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L DIODESCH DS1
 U 1 1 53C35916
-P 9200 2650
-F 0 "DS1" H 9200 2750 40  0000 C CNN
-F 1 "757-CMS04TE12" H 9200 2550 40  0000 C CNN
-F 2 "" H 9200 2650 60  0000 C CNN
-F 3 "" H 9200 2650 60  0000 C CNN
-	1    9200 2650
+P 8550 2650
+F 0 "DS1" H 8550 2750 40  0000 C CNN
+F 1 "SK84B" H 8550 2550 40  0000 C CNN
+F 2 "" H 8550 2650 60  0000 C CNN
+F 3 "" H 8550 2650 60  0000 C CNN
+	1    8550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -240,8 +240,6 @@ Text Label 6150 1550 3    60   ~ 0
 XTAL1
 Text Label 6850 1550 3    60   ~ 0
 XTAL2
-Text Notes 8950 2950 0    39   ~ 0
-Toshiba, 5A\napprox. SMA package
 $Comp
 L ATMEGA168PA-M IC1
 U 1 1 53C14D61
@@ -560,20 +558,7 @@ Wire Notes Line
 Wire Notes Line
 	7200 900  1150 900 
 Wire Wire Line
-	8800 2500 8850 2500
-Wire Wire Line
-	8850 2500 8850 2800
-Wire Wire Line
-	8300 2500 8250 2500
-Wire Wire Line
-	8850 2800 8800 2800
-Wire Wire Line
-	8250 2800 8300 2800
-Wire Wire Line
-	8850 2650 9000 2650
-Connection ~ 8850 2650
-Wire Wire Line
-	9450 2650 9700 2650
+	9400 2650 9700 2650
 Wire Notes Line
 	7400 2300 7400 3250
 Wire Notes Line
@@ -768,13 +753,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 2800 8000 2800
 Wire Wire Line
-	8250 2500 8250 2800
-Wire Wire Line
-	8000 2700 8250 2700
-Connection ~ 8250 2700
+	8250 2700 8000 2700
 Wire Wire Line
 	8000 2600 8250 2600
-Connection ~ 8250 2600
 Wire Notes Line
 	7400 2200 10400 2200
 Wire Notes Line
@@ -786,4 +767,23 @@ Wire Wire Line
 Connection ~ 8100 2800
 Wire Wire Line
 	8100 3000 8050 3000
+Wire Wire Line
+	8250 2650 8350 2650
+Connection ~ 8250 2650
+Text Notes 8400 2950 0    39   ~ 0
+Vf=0.5V @ 8A\nSMC
+Wire Wire Line
+	9400 2500 9400 2800
+Connection ~ 9400 2650
+Wire Wire Line
+	8900 2500 8900 2800
+Wire Wire Line
+	8800 2650 8900 2650
+Connection ~ 8900 2650
+Text Label 8350 2450 0    60   ~ 0
+5V_raw
+Wire Wire Line
+	8250 2600 8250 2700
+Wire Wire Line
+	8350 2650 8350 2450
 $EndSCHEMATC
