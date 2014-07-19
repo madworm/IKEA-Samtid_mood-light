@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 71.369522 27.8 228.950478 164.700001)
     (thickness 1.6)
-    (drawings 50)
+    (drawings 53)
     (tracks 1448)
     (zones 0)
     (modules 154)
@@ -15,8 +15,8 @@
   (page A4)
   (title_block
     (title IKEA-Samtid_mood-light)
-    (date "18 Jul 2014")
-    (rev 0.19.b)
+    (date "19 Jul 2014")
+    (rev 0.19.c)
     (company "2014 - blog.spitzenpfeil.org")
   )
 
@@ -7758,6 +7758,9 @@
     (pad 3 smd rect (at -0.19 2.25 64) (size 0.6 3) (layers F.Cu F.Paste F.Mask))
   )
 
+  (gr_line (start 133.1 63.24) (end 138.13 72.99) (layer B.SilkS) (width 0.2))
+  (gr_line (start 167.08 63.23) (end 162.06 73.06) (layer B.SilkS) (width 0.2))
+  (gr_arc (start 150.1 94.99) (end 133.1 63.24) (angle 56.3) (layer B.SilkS) (width 0.2))
   (gr_circle (center 150 95) (end 150 45.4) (layer Dwgs.User) (width 0.1))
   (gr_text - (at 144 130.1) (layer B.SilkS) (tstamp 53C32429)
     (effects (font (size 1 1) (thickness 0.2)))
@@ -7794,7 +7797,7 @@
   (gr_text GND (at 141.65 96.63 270) (layer B.SilkS) (tstamp 53C2A48A)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
   )
-  (gr_text "IKEA-Samtid mood-light V0.19.b\n2014 - blog.spitzenpfeil.org" (at 121.26 95 90) (layer B.SilkS) (tstamp 53C2E946)
+  (gr_text "IKEA-Samtid mood-light V0.19.c\n2014 - blog.spitzenpfeil.org" (at 121.26 95 90) (layer B.SilkS) (tstamp 53C2E946)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_arc (start 150 95) (end 129.81 96.54) (angle 187.8) (layer Edge.Cuts) (width 0.2))
