@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Mon 14 Jul 2014 01:17:05 AM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Wed 23 Jul 2014 08:12:25 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -458,7 +458,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53C35916;
 Reference = DS1;
-ValeurCmp = 757-CMS04TE12;
+ValeurCmp = SK84B;
 IdModule  = Diodes_SMD:Diode-SMA_Standard;
 EndCmp
 
@@ -472,14 +472,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53C3478B;
 Reference = F1;
-ValeurCmp = 2A-poly;
+ValeurCmp = 3A-poly;
 IdModule  = my_parts:MADW__R1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C34893;
 Reference = F2;
-ValeurCmp = 2A-poly;
+ValeurCmp = 3A-poly;
 IdModule  = my_parts:MADW__R1206;
 EndCmp
 
@@ -963,28 +963,28 @@ BeginCmp
 TimeStamp = /53C2AA2F;
 Reference = P3.1;
 ValeurCmp = B-to-B-1A;
-IdModule  = ;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AAB4;
 Reference = P3.2;
 ValeurCmp = B-to-B-1B;
-IdModule  = ;
+IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AAD1;
 Reference = P4.1;
 ValeurCmp = B-to-B-2A;
-IdModule  = ;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AB16;
 Reference = P4.2;
 ValeurCmp = B-to-B-2B;
-IdModule  = ;
+IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
 EndCmp
 
 BeginCmp
