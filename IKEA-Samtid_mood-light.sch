@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "15 Jul 2014"
-Rev "0.19"
+Date "24 Jul 2014"
+Rev "0.20"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -359,10 +359,10 @@ F 3 "" H 10350 1800 60  0000 C CNN
 	1    10350 1800
 	1    0    0    -1  
 $EndComp
-Text Notes 550  7600 0    39   ~ 0
-(3) micro-Match 2x2, 2.54mm / 1.27mm, male, TH, main board (AMP PN: 215464-4)
 Text Notes 550  7700 0    39   ~ 0
-(4) micro-Match 2x2, 2.54mm / 1.27mm, female, SMD, daughter-board (AMP PN: 188275-4)
+(4) micro-Match 2x2, 2.54mm / 1.27mm, male, TH, daughter-board (AMP PN: 215464-4)
+Text Notes 550  7600 0    39   ~ 0
+(3) micro-Match 2x2, 2.54mm / 1.27mm, female, SMD, main-board (AMP PN: 188275-4)
 Text Notes 8550 1400 0    39   ~ 0
 (3)
 Text Notes 8550 1850 0    39   ~ 0

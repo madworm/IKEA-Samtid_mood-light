@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.sch)
-    (date "Tue 15 Jul 2014 11:54:49 AM CEST")
+    (date "Thu 24 Jul 2014 03:06:45 PM CEST")
     (tool "Eeschema (2014-06-29 BZR 4957)-product"))
   (components
     (comp (ref C1)
@@ -772,79 +772,6 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name C) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistance)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part SW_PUSH)
-      (description "Push Button")
-      (fields
-        (field (name Reference) SW)
-        (field (name Value) SW_PUSH))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib conn) (part CONN_2X2)
-      (description "Symbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_2X2))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))))
-    (libpart (lib conn) (part CONN_4)
-      (description "Symbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_4))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))))
-    (libpart (lib conn) (part CONN_6)
-      (description "ymbole general de connecteur")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_6))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))
-        (pin (num 5) (name 5) (type passive))
-        (pin (num 6) (name 6) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FUSE)
-      (fields
-        (field (name Reference) F)
-        (field (name Value) FUSE))
-      (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))))
     (libpart (lib my_parts) (part MADW__AVR_ISP)
       (fields
         (field (name Reference) JP)
@@ -866,6 +793,65 @@
         (pin (num 2) (name DOUT) (type output))
         (pin (num 3) (name GND) (type power_in))
         (pin (num 4) (name DIN) (type input))))
+    (libpart (lib my_parts) (part generic_resonator)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) generic_resonator))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))
+        (pin (num 3) (name ~) (type input))))
+    (libpart (lib device) (part FUSE)
+      (fields
+        (field (name Reference) F)
+        (field (name Value) FUSE))
+      (pins
+        (pin (num 1) (name ~) (type input))
+        (pin (num 2) (name ~) (type input))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_2X2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2X2))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))))
+    (libpart (lib device) (part SW_PUSH)
+      (description "Push Button")
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib my_parts) (part ATMEGA168A-M)
       (aliases
         (alias ATMEGA48A-M)
@@ -915,23 +901,37 @@
         (pin (num 31) (name "(PCINT17/TXD)PD1") (type BiDi))
         (pin (num 32) (name "(PCINT18/INT0)PD2") (type BiDi))
         (pin (num 33) (name "GND(PAD)") (type power_in))))
-    (libpart (lib my_parts) (part generic_resonator)
+    (libpart (lib conn) (part CONN_6)
+      (description "ymbole general de connecteur")
       (fields
-        (field (name Reference) X)
-        (field (name Value) generic_resonator))
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
       (pins
-        (pin (num 1) (name ~) (type input))
-        (pin (num 2) (name ~) (type input))
-        (pin (num 3) (name ~) (type input)))))
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib conn) (part CONN_4)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive)))))
   (libraries
     (library (logical my_parts)
       (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
+    (library (logical transistors)
+      (uri /usr/share/kicad/library/transistors.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical transistors)
-      (uri /usr/share/kicad/library/transistors.lib)))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name /XTAL2)
       (node (ref IC1) (pin 8))
