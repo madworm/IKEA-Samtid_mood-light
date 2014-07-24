@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
 Date "24 Jul 2014"
-Rev "0.20"
+Rev "0.21"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -383,8 +383,6 @@ NoConn ~ 10750 1450
 NoConn ~ 10750 1350
 Text Notes 9950 1050 0    60   ~ 0
 (just mechanical)
-NoConn ~ 9000 1850
-NoConn ~ 9000 1400
 Text Label 10250 2550 2    60   ~ 0
 VCC.A
 Text Label 9100 1300 0    60   ~ 0
@@ -786,4 +784,12 @@ Wire Wire Line
 	8250 2600 8250 2700
 Wire Wire Line
 	8350 2650 8350 2450
+Text Label 9100 1400 0    60   ~ 0
+GND.A
+Wire Wire Line
+	9000 1400 9100 1400
+Text Label 9100 1850 0    60   ~ 0
+GND.B
+Wire Wire Line
+	9000 1850 9100 1850
 $EndSCHEMATC
