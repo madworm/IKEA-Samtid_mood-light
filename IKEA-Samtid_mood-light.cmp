@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Wed 23 Jul 2014 08:12:25 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Thu 24 Jul 2014 02:33:53 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -963,28 +963,28 @@ BeginCmp
 TimeStamp = /53C2AA2F;
 Reference = P3.1;
 ValeurCmp = B-to-B-1A;
-IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
+IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AAB4;
 Reference = P3.2;
 ValeurCmp = B-to-B-1B;
-IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AAD1;
 Reference = P4.1;
 ValeurCmp = B-to-B-2A;
-IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
+IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C2AB16;
 Reference = P4.2;
 ValeurCmp = B-to-B-2B;
-IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
