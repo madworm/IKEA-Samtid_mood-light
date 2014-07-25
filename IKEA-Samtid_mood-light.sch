@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "24 Jul 2014"
-Rev "0.21"
+Date "25 Jul 2014"
+Rev "0.22"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -150,12 +150,12 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 53BF0941
-P 6500 3800
-F 0 "#FLG03" H 6500 3895 30  0001 C CNN
-F 1 "PWR_FLAG" H 6500 3980 30  0000 C CNN
-F 2 "" H 6500 3800 60  0000 C CNN
-F 3 "" H 6500 3800 60  0000 C CNN
-	1    6500 3800
+P 5850 3800
+F 0 "#FLG03" H 5850 3895 30  0001 C CNN
+F 1 "PWR_FLAG" H 5850 3980 30  0000 C CNN
+F 2 "" H 5850 3800 60  0000 C CNN
+F 3 "" H 5850 3800 60  0000 C CNN
+	1    5850 3800
 	1    0    0    -1  
 $EndComp
 Text Label 1750 5700 2    60   ~ 0
@@ -285,12 +285,12 @@ Text Notes 7600 2400 0    60   ~ 0
 $Comp
 L PWR_FLAG #FLG05
 U 1 1 53C2B991
-P 6950 3800
-F 0 "#FLG05" H 6950 3895 30  0001 C CNN
-F 1 "PWR_FLAG" H 6950 3980 30  0000 C CNN
-F 2 "" H 6950 3800 60  0000 C CNN
-F 3 "" H 6950 3800 60  0000 C CNN
-	1    6950 3800
+P 6300 3800
+F 0 "#FLG05" H 6300 3895 30  0001 C CNN
+F 1 "PWR_FLAG" H 6300 3980 30  0000 C CNN
+F 2 "" H 6300 3800 60  0000 C CNN
+F 3 "" H 6300 3800 60  0000 C CNN
+	1    6300 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -397,7 +397,7 @@ Text Label 1800 2500 2    60   ~ 0
 VCC.B
 Text Label 2400 3550 0    60   ~ 0
 VCC.B
-Text Label 6950 4000 2    60   ~ 0
+Text Label 6300 4000 2    60   ~ 0
 VCC.B
 Text Label 1800 2300 2    60   ~ 0
 GND.B
@@ -411,7 +411,7 @@ Text Label 6800 2450 0    60   ~ 0
 GND.B
 Text Label 6550 2000 0    60   ~ 0
 GND.B
-Text Label 6500 4000 2    60   ~ 0
+Text Label 5850 4000 2    60   ~ 0
 GND.B
 Text Label 8100 1850 2    60   ~ 0
 GND.B
@@ -534,7 +534,7 @@ Wire Wire Line
 Wire Wire Line
 	10000 6050 10000 6150
 Wire Wire Line
-	6500 3800 6500 4000
+	5850 3800 5850 4000
 Wire Wire Line
 	3300 5000 3750 5000
 Wire Wire Line
@@ -578,7 +578,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 2800 6000 2800
 Wire Wire Line
-	6950 3800 6950 4000
+	6300 3800 6300 4000
 Wire Notes Line
 	7250 900  7100 900 
 Wire Notes Line
@@ -792,4 +792,38 @@ Text Label 9100 1850 0    60   ~ 0
 GND.B
 Wire Wire Line
 	9000 1850 9100 1850
+$Comp
+L LED D65
+U 1 1 53D25751
+P 6700 3250
+F 0 "D65" H 6700 3350 50  0000 C CNN
+F 1 "LED" H 6700 3150 50  0000 C CNN
+F 2 "" H 6700 3250 60  0000 C CNN
+F 3 "" H 6700 3250 60  0000 C CNN
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 53D25DCF
+P 6950 3550
+F 0 "R1" V 7030 3550 40  0000 C CNN
+F 1 "1k" V 6957 3551 40  0000 C CNN
+F 2 "" V 6880 3550 30  0000 C CNN
+F 3 "" H 6950 3550 30  0000 C CNN
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 3250 6950 3300
+Text Label 6950 4000 2    60   ~ 0
+GND.B
+Wire Wire Line
+	6950 3800 6950 4000
+Text Label 6450 3250 2    60   ~ 0
+SCK
+Wire Wire Line
+	6450 3250 6500 3250
+Wire Wire Line
+	6900 3250 6950 3250
 $EndSCHEMATC
