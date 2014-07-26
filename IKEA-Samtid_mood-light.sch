@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
 Date "26 Jul 2014"
-Rev "0.24"
+Rev "0.25"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -86,7 +86,6 @@ Text Label 1600 3650 2    60   ~ 0
 SCK
 Text Label 1600 3750 2    60   ~ 0
 RST
-NoConn ~ 1900 2400
 Text Label 1800 2600 2    60   ~ 0
 RXI
 Text Label 1800 2700 2    60   ~ 0
@@ -119,7 +118,6 @@ NoConn ~ 5200 3250
 NoConn ~ 5200 2800
 NoConn ~ 5200 2700
 NoConn ~ 5200 2600
-NoConn ~ 5200 2500
 NoConn ~ 5200 2400
 NoConn ~ 5200 2300
 NoConn ~ 5200 1650
@@ -860,4 +858,12 @@ Text Notes 1500 6350 0    39   ~ 0
 µC side\nVCC.A = VCC.B
 Text Notes 2550 6350 0    39   ~ 0
 LED side\n5V > VCC.A
+Text Label 5300 2500 0    60   ~ 0
+ADC2
+Wire Wire Line
+	5200 2500 5300 2500
+Wire Wire Line
+	1900 2400 1800 2400
+Text Label 1800 2400 2    60   ~ 0
+ADC2
 $EndSCHEMATC
