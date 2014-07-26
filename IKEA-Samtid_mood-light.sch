@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "25 Jul 2014"
-Rev "0.23"
+Date "26 Jul 2014"
+Rev "0.24"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -669,7 +669,7 @@ L R Rp1
 U 1 1 53C34AC0
 P 1800 5400
 F 0 "Rp1" V 1880 5400 40  0000 C CNN
-F 1 "4k7" V 1807 5401 40  0000 C CNN
+F 1 "1k5" V 1807 5401 40  0000 C CNN
 F 2 "" V 1730 5400 30  0000 C CNN
 F 3 "" H 1800 5400 30  0000 C CNN
 	1    1800 5400
@@ -683,7 +683,7 @@ L R Rp2
 U 1 1 53C35249
 P 2800 5400
 F 0 "Rp2" V 2880 5400 40  0000 C CNN
-F 1 "4k7" V 2807 5401 40  0000 C CNN
+F 1 "1k5" V 2807 5401 40  0000 C CNN
 F 2 "" V 2730 5400 30  0000 C CNN
 F 3 "" H 2800 5400 30  0000 C CNN
 	1    2800 5400
