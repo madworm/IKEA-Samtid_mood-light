@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "26 Jul 2014"
-Rev "0.25"
+Date "28 Jul 2014"
+Rev "0.26"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -91,15 +91,13 @@ RXI
 Text Label 1800 2700 2    60   ~ 0
 TXO
 Text Label 1800 2800 2    60   ~ 0
-RST
+DTR
 Text Label 5300 1850 0    60   ~ 0
 MISO
 Text Label 5300 1750 0    60   ~ 0
 MOSI
 Text Label 5300 1950 0    60   ~ 0
 SCK
-Text Label 5300 2900 0    60   ~ 0
-RST
 Text Label 5300 3050 0    60   ~ 0
 RXI
 Text Label 5300 3150 0    60   ~ 0
@@ -471,6 +469,131 @@ Text Notes 8250 1050 0    60   ~ 0
 Boart-to-Board
 Text Label 3650 5400 2    60   ~ 0
 GND.A
+$Comp
+L BSS138 Q2
+U 1 1 53C3227B
+P 2050 5600
+F 0 "Q2" H 2050 5451 40  0000 R CNN
+F 1 "BSS138" H 2050 5750 40  0000 R CNN
+F 2 "SOT-23" H 1920 5702 29  0000 C CNN
+F 3 "" H 2050 5600 60  0000 C CNN
+	1    2050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR010
+U 1 1 53C343F7
+P 2800 5100
+F 0 "#PWR010" H 2800 5190 20  0001 C CNN
+F 1 "+5V" H 2800 5190 30  0000 C CNN
+F 2 "" H 2800 5100 60  0000 C CNN
+F 3 "" H 2800 5100 60  0000 C CNN
+	1    2800 5100
+	1    0    0    -1  
+$EndComp
+Text Label 1800 5100 0    60   ~ 0
+VCC.A
+$Comp
+L R Rp1
+U 1 1 53C34AC0
+P 1800 5400
+F 0 "Rp1" V 1880 5400 40  0000 C CNN
+F 1 "1k5" V 1807 5401 40  0000 C CNN
+F 2 "" V 1730 5400 30  0000 C CNN
+F 3 "" H 1800 5400 30  0000 C CNN
+	1    1800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R Rp2
+U 1 1 53C35249
+P 2800 5400
+F 0 "Rp2" V 2880 5400 40  0000 C CNN
+F 1 "1k5" V 2807 5401 40  0000 C CNN
+F 2 "" V 2730 5400 30  0000 C CNN
+F 3 "" H 2800 5400 30  0000 C CNN
+	1    2800 5400
+	1    0    0    -1  
+$EndComp
+Text Notes 1600 4700 0    60   ~ 0
+(2) Signal isolation if either \npower source is absent
+$Comp
+L CONN_4 P2
+U 1 1 53C36DBC
+P 7650 2650
+F 0 "P2" V 7600 2650 50  0000 C CNN
+F 1 "POWER" V 7700 2650 50  0000 C CNN
+F 2 "" H 7650 2650 60  0000 C CNN
+F 3 "" H 7650 2650 60  0000 C CNN
+	1    7650 2650
+	-1   0    0    -1  
+$EndComp
+Text Notes 8400 2950 0    39   ~ 0
+Vf=0.5V @ 8A\nSMC
+Text Label 8350 2450 0    60   ~ 0
+5V_raw
+Text Label 9100 1400 0    60   ~ 0
+GND.A
+Text Label 9100 1850 0    60   ~ 0
+GND.B
+$Comp
+L LED D65
+U 1 1 53D25751
+P 6700 3250
+F 0 "D65" H 6700 3350 50  0000 C CNN
+F 1 "LED" H 6700 3150 50  0000 C CNN
+F 2 "" H 6700 3250 60  0000 C CNN
+F 3 "" H 6700 3250 60  0000 C CNN
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 53D25DCF
+P 6950 3550
+F 0 "R1" V 7030 3550 40  0000 C CNN
+F 1 "1k" V 6957 3551 40  0000 C CNN
+F 2 "" V 6880 3550 30  0000 C CNN
+F 3 "" H 6950 3550 30  0000 C CNN
+	1    6950 3550
+	1    0    0    -1  
+$EndComp
+Text Label 6950 4000 2    60   ~ 0
+GND.B
+Text Label 6450 3250 2    60   ~ 0
+SCK
+$Comp
+L BSS138 Q1
+U 1 1 53C33B25
+P 2550 5600
+F 0 "Q1" H 2550 5451 40  0000 R CNN
+F 1 "BSS138" H 2550 5750 40  0000 R CNN
+F 2 "SOT-23" H 2420 5702 29  0000 C CNN
+F 3 "" H 2550 5600 60  0000 C CNN
+	1    2550 5600
+	0    -1   1    0   
+$EndComp
+Text Notes 1500 6350 0    39   ~ 0
+µC side\nVCC.A = VCC.B
+Text Notes 2550 6350 0    39   ~ 0
+LED side\n5V > VCC.A
+Text Label 5300 2500 0    60   ~ 0
+ADC2
+Text Label 1800 2400 2    60   ~ 0
+ADC2
+$Comp
+L C C2
+U 1 1 53D662A7
+P 5650 3150
+F 0 "C2" H 5650 3250 40  0000 L CNN
+F 1 "100nF" H 5656 3065 40  0000 L CNN
+F 2 "" H 5688 3000 30  0000 C CNN
+F 3 "" H 5650 3150 60  0000 C CNN
+	1    5650 3150
+	1    0    0    -1  
+$EndComp
+Text Label 5650 3500 0    60   ~ 0
+DTR
 Wire Wire Line
 	2000 1800 2000 1950
 Wire Wire Line
@@ -562,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1450 6150 1550
 Wire Wire Line
-	5200 2900 5300 2900
+	5200 2900 5650 2900
 Wire Wire Line
 	6600 2450 6800 2450
 Wire Wire Line
@@ -636,57 +759,11 @@ Wire Wire Line
 	3650 6150 3750 6150
 Wire Wire Line
 	3750 6300 3650 6300
-$Comp
-L BSS138 Q2
-U 1 1 53C3227B
-P 2050 5600
-F 0 "Q2" H 2050 5451 40  0000 R CNN
-F 1 "BSS138" H 2050 5750 40  0000 R CNN
-F 2 "SOT-23" H 1920 5702 29  0000 C CNN
-F 3 "" H 2050 5600 60  0000 C CNN
-	1    2050 5600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2250 5700 2350 5700
-$Comp
-L +5V #PWR010
-U 1 1 53C343F7
-P 2800 5100
-F 0 "#PWR010" H 2800 5190 20  0001 C CNN
-F 1 "+5V" H 2800 5190 30  0000 C CNN
-F 2 "" H 2800 5100 60  0000 C CNN
-F 3 "" H 2800 5100 60  0000 C CNN
-	1    2800 5100
-	1    0    0    -1  
-$EndComp
-Text Label 1800 5100 0    60   ~ 0
-VCC.A
-$Comp
-L R Rp1
-U 1 1 53C34AC0
-P 1800 5400
-F 0 "Rp1" V 1880 5400 40  0000 C CNN
-F 1 "1k5" V 1807 5401 40  0000 C CNN
-F 2 "" V 1730 5400 30  0000 C CNN
-F 3 "" H 1800 5400 30  0000 C CNN
-	1    1800 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1750 5700 1850 5700
 Connection ~ 1800 5700
-$Comp
-L R Rp2
-U 1 1 53C35249
-P 2800 5400
-F 0 "Rp2" V 2880 5400 40  0000 C CNN
-F 1 "1k5" V 2807 5401 40  0000 C CNN
-F 2 "" V 2730 5400 30  0000 C CNN
-F 3 "" H 2800 5400 30  0000 C CNN
-	1    2800 5400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2750 5700 3300 5700
 Wire Wire Line
@@ -716,19 +793,6 @@ Wire Notes Line
 	1150 4400 5350 4400
 Wire Notes Line
 	3200 4400 3200 6700
-Text Notes 1600 4700 0    60   ~ 0
-(2) Signal isolation if either \npower source is absent
-$Comp
-L CONN_4 P2
-U 1 1 53C36DBC
-P 7650 2650
-F 0 "P2" V 7600 2650 50  0000 C CNN
-F 1 "POWER" V 7700 2650 50  0000 C CNN
-F 2 "" H 7650 2650 60  0000 C CNN
-F 3 "" H 7650 2650 60  0000 C CNN
-	1    7650 2650
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 2500 8100 2500
 Wire Wire Line
@@ -747,8 +811,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 2650 8350 2650
 Connection ~ 8250 2650
-Text Notes 8400 2950 0    39   ~ 0
-Vf=0.5V @ 8A\nSMC
 Wire Wire Line
 	9400 2500 9400 2800
 Connection ~ 9400 2650
@@ -757,50 +819,18 @@ Wire Wire Line
 Wire Wire Line
 	8800 2650 8900 2650
 Connection ~ 8900 2650
-Text Label 8350 2450 0    60   ~ 0
-5V_raw
 Wire Wire Line
 	8250 2600 8250 2700
 Wire Wire Line
 	8350 2650 8350 2450
-Text Label 9100 1400 0    60   ~ 0
-GND.A
 Wire Wire Line
 	9000 1400 9100 1400
-Text Label 9100 1850 0    60   ~ 0
-GND.B
 Wire Wire Line
 	9000 1850 9100 1850
-$Comp
-L LED D65
-U 1 1 53D25751
-P 6700 3250
-F 0 "D65" H 6700 3350 50  0000 C CNN
-F 1 "LED" H 6700 3150 50  0000 C CNN
-F 2 "" H 6700 3250 60  0000 C CNN
-F 3 "" H 6700 3250 60  0000 C CNN
-	1    6700 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R1
-U 1 1 53D25DCF
-P 6950 3550
-F 0 "R1" V 7030 3550 40  0000 C CNN
-F 1 "1k" V 6957 3551 40  0000 C CNN
-F 2 "" V 6880 3550 30  0000 C CNN
-F 3 "" H 6950 3550 30  0000 C CNN
-	1    6950 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 3250 6950 3300
-Text Label 6950 4000 2    60   ~ 0
-GND.B
 Wire Wire Line
 	6950 3800 6950 4000
-Text Label 6450 3250 2    60   ~ 0
-SCK
 Wire Wire Line
 	6450 3250 6500 3250
 Wire Wire Line
@@ -823,17 +853,6 @@ Wire Notes Line
 	2300 6000 2300 6050
 Wire Notes Line
 	2300 6100 2300 6150
-$Comp
-L BSS138 Q1
-U 1 1 53C33B25
-P 2550 5600
-F 0 "Q1" H 2550 5451 40  0000 R CNN
-F 1 "BSS138" H 2550 5750 40  0000 R CNN
-F 2 "SOT-23" H 2420 5702 29  0000 C CNN
-F 3 "" H 2550 5600 60  0000 C CNN
-	1    2550 5600
-	0    -1   1    0   
-$EndComp
 Wire Notes Line
 	2300 5600 2300 5550
 Wire Notes Line
@@ -854,16 +873,14 @@ Wire Notes Line
 	2300 6300 2300 6350
 Wire Notes Line
 	2300 6400 2300 6450
-Text Notes 1500 6350 0    39   ~ 0
-µC side\nVCC.A = VCC.B
-Text Notes 2550 6350 0    39   ~ 0
-LED side\n5V > VCC.A
-Text Label 5300 2500 0    60   ~ 0
-ADC2
 Wire Wire Line
 	5200 2500 5300 2500
 Wire Wire Line
 	1900 2400 1800 2400
-Text Label 1800 2400 2    60   ~ 0
-ADC2
+Wire Wire Line
+	5650 3350 5650 3500
+Wire Wire Line
+	5650 2900 5650 2950
+Text Label 5300 2900 0    60   ~ 0
+RST
 $EndSCHEMATC
