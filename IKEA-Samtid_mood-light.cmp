@@ -1,18 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Mon 28 Jul 2014 02:57:22 PM CEST
-
-BeginCmp
-TimeStamp = /53BED138;
-Reference = C1;
-ValeurCmp = 1µF;
-IdModule  = my_parts:MADW__C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D662A7;
-Reference = C2;
-ValeurCmp = 100nF;
-IdModule  = my_parts:MADW__C0805;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Fri 01 Aug 2014 01:48:24 PM CEST
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF0E88;
@@ -463,17 +449,10 @@ IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D25751;
-Reference = D65;
-ValeurCmp = LED;
-IdModule  = my_parts:MADW__CHIPLED-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C35916;
 Reference = DS1;
 ValeurCmp = SK84B;
-IdModule  = Diodes_SMD:Diode-SMA_Standard;
+IdModule  = Diodes_SMD:Diode-SMC_Standard;
 EndCmp
 
 BeginCmp
@@ -495,20 +474,6 @@ TimeStamp = /53C34893;
 Reference = F2;
 ValeurCmp = 3A-poly;
 IdModule  = my_parts:MADW__R1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C14D61;
-Reference = IC1;
-ValeurCmp = ATMEGA168PA-M;
-IdModule  = SMD_Packages:QFN32;
-EndCmp
-
-BeginCmp
-TimeStamp = /53BED211;
-Reference = JP1;
-ValeurCmp = AVR_ISP;
-IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
 EndCmp
 
 BeginCmp
@@ -960,13 +925,6 @@ IdModule  = WS2812B:WS2812B_data-bridgeable;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BED26D;
-Reference = P1;
-ValeurCmp = FTDI;
-IdModule  = my_parts:MADW__SIL-6;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C36DBC;
 Reference = P2;
 ValeurCmp = POWER;
@@ -981,24 +939,10 @@ IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C2AAB4;
-Reference = P3.2;
-ValeurCmp = B-to-B-1B;
-IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C2AAD1;
 Reference = P4.1;
 ValeurCmp = B-to-B-2A;
 IdModule  = micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C2AB16;
-Reference = P4.2;
-ValeurCmp = B-to-B-2B;
-IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
@@ -1016,13 +960,6 @@ IdModule  = my_parts:MADW__SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /53D25DCF;
-Reference = R1;
-ValeurCmp = 1k;
-IdModule  = my_parts:MADW__R0603_2;
-EndCmp
-
-BeginCmp
 TimeStamp = /53C34AC0;
 Reference = Rp1;
 ValeurCmp = 1k5;
@@ -1034,27 +971,6 @@ TimeStamp = /53C35249;
 Reference = Rp2;
 ValeurCmp = 1k5;
 IdModule  = my_parts:MADW__R0603_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C15F1B;
-Reference = SW1;
-ValeurCmp = ENTER;
-IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C15FEF;
-Reference = SW2;
-ValeurCmp = MODE;
-IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C088B5;
-Reference = X1;
-ValeurCmp = CSTCE16M0V53-R0;
-IdModule  = my_parts:MADW__murata-resonator__CSTCE16M0V53-R0;
 EndCmp
 
 EndListe

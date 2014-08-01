@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Fri 01 Aug 2014 01:42:49 PM CEST
+
+BeginCmp
+TimeStamp = /53BED138;
+Reference = C1;
+ValeurCmp = 1µF;
+IdModule  = my_parts:MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D662A7;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = my_parts:MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D25751;
+Reference = D65;
+ValeurCmp = LED;
+IdModule  = my_parts:MADW__CHIPLED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C14D61;
+Reference = IC1;
+ValeurCmp = ATMEGA168PA-M;
+IdModule  = SMD_Packages:QFN32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BED211;
+Reference = JP1;
+ValeurCmp = AVR_ISP;
+IdModule  = my_parts:MADW__PIN_ARRAY_3x2_1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BED26D;
+Reference = P1;
+ValeurCmp = FTDI;
+IdModule  = my_parts:MADW__SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2AAB4;
+Reference = P3.2;
+ValeurCmp = B-to-B-1B;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C2AB16;
+Reference = P4.2;
+ValeurCmp = B-to-B-2B;
+IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D25DCF;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C15F1B;
+Reference = SW1;
+ValeurCmp = ENTER;
+IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C15FEF;
+Reference = SW2;
+ValeurCmp = MODE;
+IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /53C088B5;
+Reference = X1;
+ValeurCmp = CSTCE16M0V53-R0;
+IdModule  = my_parts:MADW__murata-resonator__CSTCE16M0V53-R0;
+EndCmp
+
+EndListe
