@@ -1,0 +1,5 @@
+
+The SK84 Schottky diode drops about 0.25-0.4V or so, which may be too much.
+Either don't populate, or get a tunable power supply and increase the voltage
+a bit to compensate.
+
