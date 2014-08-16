@@ -1,0 +1,28 @@
+Bill of materials:
+------------------
+
+C1		1µF, 10V, 0805
+C2		100nF, 10V, 0805
+C5-C68		1µF, 10V, 0805
+DS2		SS14L, sub-SMA
+LED1-64		WS2812B, PLCC4-5050
+LED65		LED, 0603
+IC1		ATmega168PA-M, QFN32
+Q1		BSS138, SOT23
+Q2		BSS138, SOT23
+R1		1k, 0603
+Rp1,Rp2		1.5k, 0603
+SW1,SW2		push button, SMD, 3.7x6.0mm
+X1		oscillator, 16MHz, CSTCE16M0V53-R0
+P3.1		micro-MaTch, 0-188275-4, SMD, 4-pin, female
+P3.2		micro-MaTch, 0-215464-4, TH, 4-pin, male
+P4.1		micro-MaTch, 0-188275-4, SMD, 4-pin, female
+P4.2		micro-MaTch, 0-215464-4, TH, 4-pin, male
+
+
+optional:
+---------
+
+DS1	SK84B		SMC
+F1	poly-fuse	1812
+F2	poly-fuse	1812
