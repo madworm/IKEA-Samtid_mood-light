@@ -1,0 +1,9 @@
+
+V0.27.a ctrl-board PCB:
+-----------------------
+
+Solder 100k (0603) across C1 to resolve auto-reset issue running 5V.
+
+I've updated the schematic to include R2 (V0.28). The board files
+(.cmp .net ...) are still V0.27 or V0.27.a (layout)!
+

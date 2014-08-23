@@ -30,14 +30,15 @@ LIBS:siliconi
 LIBS:opto
 LIBS:contrib
 LIBS:valves
+LIBS:IKEA-Samtid_mood-light-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "04 Aug 2014"
-Rev "0.27"
+Date "23 Aug 2014"
+Rev "0.28"
 Comp "2014 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -684,7 +685,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 1450 6150 1550
 Wire Wire Line
-	5200 2900 5650 2900
+	5200 2900 5950 2900
 Wire Wire Line
 	6600 2450 6800 2450
 Wire Wire Line
@@ -882,4 +883,19 @@ Wire Wire Line
 	5650 2900 5650 2950
 Text Label 5300 2900 0    60   ~ 0
 RST
+$Comp
+L R R2
+U 1 1 53F8C068
+P 5950 3150
+F 0 "R2" V 6030 3150 40  0000 C CNN
+F 1 "100k" V 5957 3151 40  0000 C CNN
+F 2 "" V 5880 3150 30  0000 C CNN
+F 3 "" H 5950 3150 30  0000 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 2900
+Wire Wire Line
+	5650 3400 5950 3400
+Connection ~ 5650 3400
 $EndSCHEMATC
