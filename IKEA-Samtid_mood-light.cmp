@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Mon 04 Aug 2014 09:41:43 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 23 Aug 2014 09:03:51 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -1019,6 +1019,13 @@ BeginCmp
 TimeStamp = /53D25DCF;
 Reference = R1;
 ValeurCmp = 1k;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F8C068;
+Reference = R2;
+ValeurCmp = 100k;
 IdModule  = my_parts:MADW__R0603_2;
 EndCmp
 
