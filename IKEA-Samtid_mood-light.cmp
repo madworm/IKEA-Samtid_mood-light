@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-06-29 BZR 4957)-product   date = Sat 23 Aug 2014 09:03:51 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Sun 24 Aug 2014 06:15:20 PM CEST
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -470,16 +470,9 @@ IdModule  = my_parts:MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C35916;
+TimeStamp = /53FA7AD1;
 Reference = DS1;
-ValeurCmp = SK84B;
-IdModule  = Diodes_SMD:Diode-SMC_Standard;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C2C24C;
-Reference = DS2;
-ValeurCmp = SS14L;
+ValeurCmp = DIODESCH;
 IdModule  = my_parts:MADW__diode_sub-SMA;
 EndCmp
 
@@ -501,7 +494,7 @@ BeginCmp
 TimeStamp = /53C14D61;
 Reference = IC1;
 ValeurCmp = ATMEGA168PA-M;
-IdModule  = SMD_Packages:QFN32;
+IdModule  = SMD_Packages:QFN-32-1EP;
 EndCmp
 
 BeginCmp
@@ -1002,16 +995,30 @@ IdModule  = micro-MaTch:0-215464-4_TH_4-pin_male;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C33B25;
+TimeStamp = /53C3227B;
 Reference = Q1;
 ValeurCmp = BSS138;
 IdModule  = my_parts:MADW__SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C3227B;
+TimeStamp = /53C33B25;
 Reference = Q2;
 ValeurCmp = BSS138;
+IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA015D;
+Reference = Q3;
+ValeurCmp = IRLML6401PbF;
+IdModule  = my_parts:MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA1783;
+Reference = Q4;
+ValeurCmp = IRLML6401PbF;
 IdModule  = my_parts:MADW__SOT23;
 EndCmp
 
@@ -1025,6 +1032,20 @@ EndCmp
 BeginCmp
 TimeStamp = /53F8C068;
 Reference = R2;
+ValeurCmp = 100k;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA4260;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53FA60FB;
+Reference = R4;
 ValeurCmp = 100k;
 IdModule  = my_parts:MADW__R0603_2;
 EndCmp
