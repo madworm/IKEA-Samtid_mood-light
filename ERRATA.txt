@@ -4,3 +4,5 @@ V0.27.a ctrl-board PCB:
 
 Solder 100k (0603) across C1 to resolve auto-reset issue running 5V.
 
+This is fixed in later releases by adding R2.
+
