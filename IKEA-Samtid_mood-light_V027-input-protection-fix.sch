@@ -1,0 +1,238 @@
+EESchema Schematic File Version 2
+LIBS:my_parts
+LIBS:atmel
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:contrib
+LIBS:valves
+LIBS:IKEA-Samtid_mood-light-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "IKEA-Samtid_mood-light_V027-input-protection-fix"
+Date "24 Aug 2014"
+Rev "0.1"
+Comp "2014 - blog.spitzenpfeil.org"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FUSE F1
+U 1 1 53C3478B
+P 2300 2150
+F 0 "F1" H 2400 2200 40  0000 C CNN
+F 1 "3A-poly" H 2200 2100 40  0000 C CNN
+F 2 "" H 2300 2150 60  0000 C CNN
+F 3 "" H 2300 2150 60  0000 C CNN
+	1    2300 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L FUSE F2
+U 1 1 53C34893
+P 2750 2150
+F 0 "F2" H 2850 2200 40  0000 C CNN
+F 1 "3A-poly" H 2650 2100 40  0000 C CNN
+F 2 "" H 2750 2150 60  0000 C CNN
+F 3 "" H 2750 2150 60  0000 C CNN
+	1    2750 2150
+	0    1    1    0   
+$EndComp
+Text Notes 800  1250 0    60   ~ 0
+5V
+$Comp
+L CONN_4 P1
+U 1 1 53C36DBC
+P 850 1500
+F 0 "P1" V 800 1500 50  0000 C CNN
+F 1 "POWER" V 900 1500 50  0000 C CNN
+F 2 "" H 850 1500 60  0000 C CNN
+F 3 "" H 850 1500 60  0000 C CNN
+	1    850  1500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 1350 1300 1350
+Wire Wire Line
+	1200 1650 1400 1650
+Wire Wire Line
+	1450 1550 1200 1550
+Wire Wire Line
+	1200 1450 1450 1450
+Wire Wire Line
+	1300 1350 1300 1900
+Connection ~ 1300 1650
+Wire Wire Line
+	1450 1500 1900 1500
+Connection ~ 1450 1500
+Wire Wire Line
+	1450 1450 1450 1550
+Wire Notes Line
+	650  650  650  2700
+$Comp
+L MOSFET_P Q1
+U 1 1 53FA015D
+P 2000 1650
+F 0 "Q1" H 2200 2000 60  0000 R CNN
+F 1 "IRLML6401PbF" H 2600 2150 60  0000 R CNN
+F 2 "SOT23" H 2100 1550 39  0000 C CNN
+F 3 "" H 2000 1650 60  0000 C CNN
+	1    2000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_P Q2
+U 1 1 53FA1783
+P 2450 1650
+F 0 "Q2" H 3000 2000 60  0000 R CNN
+F 1 "IRLML6401PbF" H 3350 2150 60  0000 R CNN
+F 2 "SOT23" H 2550 1550 39  0000 C CNN
+F 3 "" H 2450 1650 60  0000 C CNN
+	1    2450 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1350 2300 1250
+Wire Wire Line
+	2750 1250 2750 1350
+Wire Wire Line
+	2300 1750 2300 1900
+Wire Wire Line
+	1900 1500 1900 1250
+Connection ~ 2300 1250
+$Comp
+L R R1
+U 1 1 53FA4260
+P 1650 1650
+F 0 "R1" V 1730 1650 40  0000 C CNN
+F 1 "100k" V 1657 1651 40  0000 C CNN
+F 2 "" V 1580 1650 30  0000 C CNN
+F 3 "" H 1650 1650 30  0000 C CNN
+	1    1650 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 53FA60FB
+P 1650 1800
+F 0 "R2" V 1730 1800 40  0000 C CNN
+F 1 "100k" V 1657 1801 40  0000 C CNN
+F 2 "" V 1580 1800 30  0000 C CNN
+F 3 "" H 1650 1800 30  0000 C CNN
+	1    1650 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 1650 1350 1800
+Wire Wire Line
+	1900 1650 2000 1650
+Connection ~ 1350 1650
+Wire Wire Line
+	1350 1800 1400 1800
+Wire Wire Line
+	1900 1250 2750 1250
+Wire Wire Line
+	2450 1650 2450 1800
+Wire Wire Line
+	2450 1800 1900 1800
+Wire Notes Line
+	3450 650  3450 2700
+Text Notes 750  850  0    60   ~ 0
+Reverse-polarity + over-current protection (25mOhm)
+Wire Wire Line
+	2750 1750 2750 1900
+Wire Wire Line
+	2300 2400 2300 2450
+Wire Wire Line
+	2750 2450 2750 2400
+$Comp
+L GND #PWR01
+U 1 1 53FA41CE
+P 1300 1900
+F 0 "#PWR01" H 1300 1900 30  0001 C CNN
+F 1 "GND" H 1300 1830 30  0001 C CNN
+F 2 "" H 1300 1900 60  0000 C CNN
+F 3 "" H 1300 1900 60  0000 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3450 2700 650  2700
+Wire Notes Line
+	650  650  3450 650 
+$Comp
+L CONN_1 P2
+U 1 1 53FA4918
+P 2150 2450
+F 0 "P2" H 2230 2450 40  0000 L CNN
+F 1 "CONN_1" H 2150 2505 30  0001 C CNN
+F 2 "" H 2150 2450 60  0000 C CNN
+F 3 "" H 2150 2450 60  0000 C CNN
+	1    2150 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 53FA49C7
+P 2900 2450
+F 0 "P3" H 2980 2450 40  0000 L CNN
+F 1 "CONN_1" H 2900 2505 30  0001 C CNN
+F 2 "" H 2900 2450 60  0000 C CNN
+F 3 "" H 2900 2450 60  0000 C CNN
+	1    2900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 53FA4AF3
+P 900 2400
+F 0 "#FLG02" H 900 2495 30  0001 C CNN
+F 1 "PWR_FLAG" H 900 2580 30  0000 C CNN
+F 2 "" H 900 2400 60  0000 C CNN
+F 3 "" H 900 2400 60  0000 C CNN
+	1    900  2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53FA4B07
+P 900 2450
+F 0 "#PWR03" H 900 2450 30  0001 C CNN
+F 1 "GND" H 900 2380 30  0001 C CNN
+F 2 "" H 900 2450 60  0000 C CNN
+F 3 "" H 900 2450 60  0000 C CNN
+	1    900  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2400 900  2450
+$EndSCHEMATC
