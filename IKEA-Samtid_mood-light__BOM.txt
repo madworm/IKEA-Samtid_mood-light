@@ -27,5 +27,5 @@ reverse-polarity + over-current protection
 
 Q3, Q4		IRLML6401PbF, SOT23
 R3, R4		100k, 0603
-F1, F2		poly-fuse, 1812
+F1		poly-fuse, 3A, 1812
 
