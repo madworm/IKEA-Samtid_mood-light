@@ -6,3 +6,15 @@ Solder 100k (0603) across C1 to resolve auto-reset issue running 5V.
 
 This is fixed in later releases by adding R2.
 
+
+
+V0.27.a LED-board PCB:
+----------------------
+
+Do not populate DS1 (SK84), the voltage drop is too large.
+
+If you want to use a poly-fuse, use a single 3A one and place it
+onto the SMC footprint of DS1. 1812 packages kinda work, a bit
+larger would be good. Use thick wire to bridge F1 and F2.
+
+

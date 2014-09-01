@@ -1,13 +1,8 @@
 
-The SK84 Schottky diode drops about 0.25-0.4V or so, which may be too much.
-Either don't populate (replace with thick solid wire), or get a tunable power
-supply and increase the voltage a bit to compensate. Absolute maximum input
-voltage (measured on the PCB): 5.3V
 
 Use thick wires. The voltage drop at 2.5A across thin ones is significant.
 
 Total current consumption is 2.5A (100% white, all LEDs on), so a 5V,3A power
 supply is sufficient. Much easier to get and smaller than 5A or more.
-
 
 
