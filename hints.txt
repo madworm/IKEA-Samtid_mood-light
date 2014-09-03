@@ -1,8 +1,16 @@
 
 
-Use thick wires. The voltage drop at 2.5A across thin ones is significant.
-
-Total current consumption is 2.5A (100% white, all LEDs on), so a 5V,3A power
+Total current consumption is 2.75A (100% white, all LEDs on), so a 5V,3A power
 supply is sufficient. Much easier to get and smaller than 5A or more.
+
+* Use thick wires. The voltage drop at 2.5A across thin ones is significant.
+
+
+A word about safety:
+--------------------
+
+When run at full brightness in white mode, the circuit board does heat up.
+Do not run in this state unattended and keep it away from easily flammable
+matter.
 
 
