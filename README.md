@@ -9,7 +9,7 @@ WS2812B-based Arduino compatible RGB ring light.
 [![image](/Docs/IMGP10016.JPG)](/Docs/IMGP10016.JPG)
 
 
-Hardware releases: [V0.27.a](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/V0.27.a) (see master branch for hints/errata).
+Hardware releases: [V0.27.a](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/V0.27.a) (see 'Docs' on master branch for hints/errata).
 
 Firmware [repository](https://github.com/madworm/IKEA-Samtid_mood-light_FW) & Arduino setup files.
 Works with Adafruit [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library.
