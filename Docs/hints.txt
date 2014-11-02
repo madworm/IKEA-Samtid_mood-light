@@ -5,6 +5,8 @@ supply is sufficient. Much easier to get and smaller than 5A or more.
 
 * Use thick wires. The voltage drop at 2.5A across thin ones is significant.
 
+* Be extremely careful with temperature when soldering! These things die easily!
+
 
 A word about safety:
 --------------------
