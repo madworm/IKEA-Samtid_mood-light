@@ -1,11 +1,23 @@
 
+Electrical connections:
+-----------------------
 
 Total current consumption is 2.75A (100% white, all LEDs on), so a 5V,3A power
 supply is sufficient. Much easier to get and smaller than 5A or more.
 
 * Use thick wires. The voltage drop at 2.5A across thin ones is significant.
 
-* Be extremely careful with temperature when soldering! These things die easily!
+
+Soldering:
+----------
+
+* Be extremely careful with temperature when soldering the WS2812B LEDs.
+  They die quite quickly if T is too high and exposure to heat is too long.
+  Read the 'reflow' section of the datasheet.
+
+* Try not to apply to much physical pressure when handsoldering. When the pads
+  are heated for the solder to melt, the plastic body becomes soft. In this
+  state the bonding-wires break very willingly.
 
 
 A word about safety:
@@ -14,5 +26,4 @@ A word about safety:
 When run at full brightness in white mode, the circuit board does heat up.
 Do not run in this state unattended and keep it away from easily flammable
 matter.
-
 
