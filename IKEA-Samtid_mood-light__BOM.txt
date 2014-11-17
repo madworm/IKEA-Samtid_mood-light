@@ -12,7 +12,7 @@ Q1, Q2		BSS138, SOT23
 R1		1k, 0603
 R2		100k, 0603
 Rp1,Rp2		1.5k, 0603
-SW1,SW2		push button, SMD, 3.7x6.0mm
+SW1,SW2		push button, SMD, 3.7x6.0mm (digikey: CKN10384CT-ND, similar ones very cheap on ebay!)
 X1		oscillator, 16MHz, CSTCE16M0V53-R0
 P3.1		micro-MaTch, 0-188275-4, SMD, 4-pin, female
 P3.2		micro-MaTch, 0-215464-4, TH, 4-pin, male
