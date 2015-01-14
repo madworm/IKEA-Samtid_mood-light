@@ -6,7 +6,7 @@ LAYOUT FILES: Circular extension board for IKEA Samtid lamps.
 
 WS2812B-based Arduino compatible RGB ring light. 
 
-[![image](/Docs/IMGP10016.JPG)](/Docs/IMGP10016.JPG)
+[![image](/Docs/V027a_lit-up.jpg)](/Docs/V027a_lit-up.jpg)
 
 
 Hardware releases: [V0.27.a](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/V0.27.a) (see 'Docs' on master branch for hints/errata).
