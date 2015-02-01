@@ -1,0 +1,7 @@
+
+Next major revision:
+
+* Add beefy 3.3V regulator on main board for logic + accessories
+* Maybe add option for bluetooth module (HC-06)
+* Maybe add option for WiFi module (esp8266)
+
