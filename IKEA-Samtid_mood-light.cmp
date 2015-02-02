@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-01 BZR 5398)-product   date = Mon 02 Feb 2015 12:10:06 AM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-01 BZR 5398)-product   date = Mon 02 Feb 2015 03:27:25 AM CET
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -472,7 +472,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53FA7AD1;
 Reference = DS1;
-ValeurCmp = DIODESCH;
+ValeurCmp = SS14L;
 IdModule  = my_parts:MADW__diode_sub-SMA;
 EndCmp
 
@@ -1041,6 +1041,13 @@ TimeStamp = /53FA60FB;
 Reference = R4;
 ValeurCmp = 100k;
 IdModule  = my_parts:MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CEFDF1;
+Reference = Radio1;
+ValeurCmp = HC-05 (vert.);
+IdModule  = my_parts:MADW__SIL-6;
 EndCmp
 
 BeginCmp
