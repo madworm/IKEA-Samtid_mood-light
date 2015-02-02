@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-08-24 BZR 5093)-product   date = Sun 24 Aug 2014 06:15:20 PM CEST
+Cmp-Mod V01 Created by Cvpcb (2015-02-01 BZR 5398)-product   date = Mon 02 Feb 2015 12:10:06 AM CET
 
 BeginCmp
 TimeStamp = /53BED138;
@@ -479,13 +479,6 @@ EndCmp
 BeginCmp
 TimeStamp = /53C3478B;
 Reference = F1;
-ValeurCmp = 3A-poly;
-IdModule  = my_parts:MADW__R1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /53C34893;
-Reference = F2;
 ValeurCmp = 3A-poly;
 IdModule  = my_parts:MADW__R1206;
 EndCmp
@@ -1076,6 +1069,13 @@ TimeStamp = /53C15FEF;
 Reference = SW2;
 ValeurCmp = MODE;
 IdModule  = my_parts:MADW__push-button-SMD-3.7x6.0;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CF1D17;
+Reference = U1;
+ValeurCmp = AP2204K-SOT23-5;
+IdModule  = my_parts:MADW__SOT23-5;
 EndCmp
 
 BeginCmp
