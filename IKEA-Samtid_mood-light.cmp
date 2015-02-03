@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-03 BZR 5403)-product   date = Tue 03 Feb 2015 05:36:06 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-03 BZR 5403)-product   date = Tue 03 Feb 2015 07:55:18 PM CET
 
 BeginCmp
-TimeStamp = /54D0EEE9;
+TimeStamp = /54D124E2;
 Reference = BT-Radio1;
 ValeurCmp = HC-05;
-IdModule  = SIL-Headers:SIL-7;
+IdModule  = SIL-Headers:SIL-6;
 EndCmp
 
 BeginCmp
