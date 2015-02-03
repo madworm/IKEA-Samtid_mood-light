@@ -1,0 +1,5 @@
+
+There are many 'HC-05' Bluetooth modules on the market.
+Sadly a great variety in pin-out configurations exists.
+Check against the schematic which one fits this device.
+
