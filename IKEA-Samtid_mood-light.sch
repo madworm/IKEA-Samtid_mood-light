@@ -217,7 +217,7 @@ MOSI
 Text Label 5950 2800 2    60   ~ 0
 MISO
 NoConn ~ 5200 3350
-Text Label 7850 1750 2    60   ~ 0
+Text Label 7850 1850 2    60   ~ 0
 LEDS.B
 Text Notes 7550 2650 0    60   ~ 0
 5V
@@ -235,7 +235,7 @@ $EndComp
 Text Notes 550  7400 0    39   ~ 0
 (1) make sure no power flows backwards to the LEDs when just the programmer is connected.
 NoConn ~ 3300 2050
-Text Label 7850 1300 2    60   ~ 0
+Text Label 7850 1400 2    60   ~ 0
 LEDS.A
 Text Notes 1600 3200 0    39   ~ 0
 6x1, 0.1in header, female, DNP
@@ -250,7 +250,7 @@ F 1 "B-to-B-1A" H 8360 1220 40  0000 C CNN
 F 2 "micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads" H 8350 1350 60  0001 C CNN
 F 3 "" H 8350 1350 60  0000 C CNN
 	1    8350 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_2X2 P3.2
@@ -261,7 +261,7 @@ F 1 "B-to-B-1B" H 8360 1670 40  0000 C CNN
 F 2 "micro-MaTch:0-215464-4_TH_4-pin_male" H 8350 1800 60  0001 C CNN
 F 3 "" H 8350 1800 60  0000 C CNN
 	1    8350 1800
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_2X2 P4.1
@@ -272,7 +272,7 @@ F 1 "B-to-B-2A" H 10060 1220 40  0000 C CNN
 F 2 "micro-MaTch:0-188275-4_SMD_4-pin_female_split-pads" H 10050 1350 60  0001 C CNN
 F 3 "" H 10050 1350 60  0000 C CNN
 	1    10050 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L CONN_2X2 P4.2
@@ -283,7 +283,7 @@ F 1 "B-to-B-2B" H 10060 1620 40  0000 C CNN
 F 2 "micro-MaTch:0-215464-4_TH_4-pin_male" H 10050 1750 60  0001 C CNN
 F 3 "" H 10050 1750 60  0000 C CNN
 	1    10050 1750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Notes 550  7700 0    39   ~ 0
 (4) micro-Match 2x2, 2.54mm / 1.27mm, male, TH, daughter-board (AMP PN: 215464-4)
@@ -299,9 +299,9 @@ Text Notes 10000 1800 0    39   ~ 0
 (4)
 Text Notes 550  7500 0    39   ~ 0
 (2) We don't want any power bleeding through input clamping diodes when just the programmer is connected and the main power supply if off.
-Text Label 8850 1300 0    60   ~ 0
+Text Label 8850 1400 0    60   ~ 0
 VCC.A
-Text Label 8850 1750 0    60   ~ 0
+Text Label 8850 1850 0    60   ~ 0
 VCC.B
 Text Label 2000 1700 0    60   ~ 0
 VCC.B2
@@ -327,9 +327,9 @@ Text Label 6550 2000 0    60   ~ 0
 GND.B
 Text Label 5850 4000 2    60   ~ 0
 GND.B
-Text Label 7850 1850 2    60   ~ 0
+Text Label 7850 1750 2    60   ~ 0
 GND.B
-Text Label 7850 1400 2    60   ~ 0
+Text Label 7850 1300 2    60   ~ 0
 GND.A
 Text Label 8000 3250 2    60   ~ 0
 GND.A
@@ -435,9 +435,9 @@ F 3 "" H 7600 2900 60  0000 C CNN
 $EndComp
 Text Label 8300 2700 0    60   ~ 0
 5V_raw
-Text Label 8850 1400 0    60   ~ 0
+Text Label 8850 1300 0    60   ~ 0
 GND.A
-Text Label 8850 1850 0    60   ~ 0
+Text Label 8850 1750 0    60   ~ 0
 GND.B
 $Comp
 L LED D65
@@ -569,13 +569,13 @@ Text Notes 7500 2400 0    60   ~ 0
 Reverse-polarity + over-current protection (25mOhm)
 Text Label 5300 3550 0    60   ~ 0
 LEDS.B
-Text Label 10550 1300 0    60   ~ 0
-RXI.A
 Text Label 10550 1400 0    60   ~ 0
+RXI.A
+Text Label 10550 1300 0    60   ~ 0
 TXO.A
-Text Label 10550 1700 0    60   ~ 0
-RXI.B
 Text Label 10550 1800 0    60   ~ 0
+RXI.B
+Text Label 10550 1700 0    60   ~ 0
 TXO.B
 $Comp
 L MADW__AP2204K-SOT23-5 U1
