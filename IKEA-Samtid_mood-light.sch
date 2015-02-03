@@ -73,7 +73,7 @@ U 1 1 53BED26D
 P 2250 2800
 F 0 "P1" V 2200 2800 60  0000 C CNN
 F 1 "FTDI" V 2300 2800 60  0000 C CNN
-F 2 "my_parts:MADW__SIL-6" H 2250 2800 60  0001 C CNN
+F 2 "SIL-Headers:SIL-6" H 2250 2800 60  0001 C CNN
 F 3 "" H 2250 2800 60  0000 C CNN
 	1    2250 2800
 	1    0    0    -1  
@@ -91,7 +91,7 @@ RXI.B
 Text Label 1800 2950 2    60   ~ 0
 TXO.B
 Text Label 1800 3050 2    60   ~ 0
-DTR
+DTR.B
 Text Label 5300 1850 0    60   ~ 0
 MISO
 Text Label 5300 1750 0    60   ~ 0
@@ -159,7 +159,7 @@ U 1 1 53C3478B
 P 8850 2900
 F 0 "F1" H 8950 2950 40  0000 C CNN
 F 1 "3A-poly" H 8850 2750 40  0000 C CNN
-F 2 "my_parts:MADW__R1206" H 8850 2900 60  0001 C CNN
+F 2 "SM1812_1206" H 8850 2900 60  0001 C CNN
 F 3 "" H 8850 2900 60  0000 C CNN
 	1    8850 2900
 	-1   0    0    1   
@@ -328,9 +328,9 @@ GND.B
 Text Label 5850 4000 2    60   ~ 0
 GND.B
 Text Label 7850 1750 2    60   ~ 0
-GND.B
+DTR.B
 Text Label 7850 1300 2    60   ~ 0
-GND.A
+DTR.A
 Text Label 8000 3250 2    60   ~ 0
 GND.A
 $Comp
@@ -428,7 +428,7 @@ U 1 1 53C36DBC
 P 7600 2900
 F 0 "P2" V 7550 2900 50  0000 C CNN
 F 1 "POWER" V 7650 2900 50  0000 C CNN
-F 2 "my_parts:MADW__SIL-4" H 7600 2900 60  0001 C CNN
+F 2 "SIL-Headers:SIL-4" H 7600 2900 60  0001 C CNN
 F 3 "" H 7600 2900 60  0000 C CNN
 	1    7600 2900
 	-1   0    0    -1  
@@ -496,7 +496,7 @@ F 3 "" H 5750 3150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 5650 3500 0    60   ~ 0
-DTR
+DTR.B
 Text Label 5300 2900 0    60   ~ 0
 RST
 $Comp
@@ -964,9 +964,7 @@ prevent backfeeding of power
 NoConn ~ 5200 3250
 Wire Wire Line
 	5200 3550 5300 3550
-NoConn ~ 9650 1300
 NoConn ~ 9650 1400
-NoConn ~ 9650 1700
 NoConn ~ 9650 1800
 Wire Wire Line
 	10450 1300 10550 1300
@@ -976,17 +974,6 @@ Wire Wire Line
 	10450 1700 10550 1700
 Wire Wire Line
 	10550 1800 10450 1800
-$Comp
-L CONN_6 BT-Radio1
-U 1 1 54CEFDF1
-P 9550 3800
-F 0 "BT-Radio1" V 9500 3800 60  0000 C CNN
-F 1 "HC-05 (vert.)" V 9600 3800 39  0000 C CNN
-F 2 "my_parts:MADW__SIL-6" H 9550 3800 60  0001 C CNN
-F 3 "" H 9550 3800 60  0000 C CNN
-	1    9550 3800
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9900 3950 10000 3950
 Wire Wire Line
@@ -1028,4 +1015,21 @@ Wire Wire Line
 	9100 3950 9100 4050
 Wire Wire Line
 	9100 4050 9200 4050
+$Comp
+L CONN_7 BT-Radio1
+U 1 1 54D0EEE9
+P 9550 3750
+F 0 "BT-Radio1" V 9520 3750 60  0000 C CNN
+F 1 "HC-05" V 9620 3750 60  0000 C CNN
+F 2 "SIL-Headers:SIL-7" H 9550 3750 60  0001 C CNN
+F 3 "" H 9550 3750 60  0000 C CNN
+	1    9550 3750
+	-1   0    0    1   
+$EndComp
+Text Label 10000 3450 0    60   ~ 0
+DTR.A
+Wire Wire Line
+	9900 3450 10000 3450
+NoConn ~ 9650 1300
+NoConn ~ 9650 1700
 $EndSCHEMATC

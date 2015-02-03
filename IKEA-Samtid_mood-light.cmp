@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-01 BZR 5398)-product   date = Tue 03 Feb 2015 02:05:48 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-03 BZR 5403)-product   date = Tue 03 Feb 2015 05:36:06 PM CET
 
 BeginCmp
-TimeStamp = /54CEFDF1;
+TimeStamp = /54D0EEE9;
 Reference = BT-Radio1;
-ValeurCmp = HC-05 (vert.);
-IdModule  = my_parts:MADW__SIL-6;
+ValeurCmp = HC-05;
+IdModule  = SIL-Headers:SIL-7;
 EndCmp
 
 BeginCmp
@@ -494,7 +494,7 @@ BeginCmp
 TimeStamp = /53C3478B;
 Reference = F1;
 ValeurCmp = 3A-poly;
-IdModule  = my_parts:MADW__R1206;
+IdModule  = SM1812_1206;
 EndCmp
 
 BeginCmp
@@ -963,14 +963,14 @@ BeginCmp
 TimeStamp = /53BED26D;
 Reference = P1;
 ValeurCmp = FTDI;
-IdModule  = my_parts:MADW__SIL-6;
+IdModule  = SIL-Headers:SIL-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C36DBC;
 Reference = P2;
 ValeurCmp = POWER;
-IdModule  = my_parts:MADW__SIL-4;
+IdModule  = SIL-Headers:SIL-4;
 EndCmp
 
 BeginCmp
