@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Sun 01 Feb 2015"
-Rev "0.4"
+Date "Wed 04 Feb 2015"
+Rev "0.40"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -1006,7 +1006,7 @@ L BT-Radio_HC-05 BT-Radio1
 U 1 1 54D124E2
 P 5950 5050
 F 0 "BT-Radio1" H 5950 4600 60  0000 C CNN
-F 1 "HC-05" H 5950 5500 60  0000 C CNN
+F 1 "HC-05 [JY-MCU]" H 5750 5500 60  0000 C CNN
 F 2 "SIL-Headers:SIL-6" H 6000 5050 60  0001 C CNN
 F 3 "" H 6000 5050 60  0000 C CNN
 	1    5950 5050
