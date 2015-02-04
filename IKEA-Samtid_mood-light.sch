@@ -38,7 +38,7 @@ encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
 Date "Wed 04 Feb 2015"
-Rev "0.40"
+Rev "0.41"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -48,12 +48,12 @@ $EndDescr
 $Comp
 L C C1
 U 1 1 53BED138
-P 1950 2000
-F 0 "C1" H 1950 2100 40  0000 L CNN
-F 1 "1µF" H 1956 1915 40  0000 L CNN
-F 2 "my_parts:MADW__C0805" H 1988 1850 30  0001 C CNN
-F 3 "" H 1950 2000 60  0000 C CNN
-	1    1950 2000
+P 2800 2750
+F 0 "C1" H 2800 2850 40  0000 L CNN
+F 1 "1µF" H 2806 2665 40  0000 L CNN
+F 2 "my_parts:MADW__C0805" H 2838 2600 30  0001 C CNN
+F 3 "" H 2800 2750 60  0000 C CNN
+	1    2800 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -166,17 +166,17 @@ $EndComp
 $Comp
 L generic_resonator X1
 U 1 1 53C088B5
-P 6500 1550
-F 0 "X1" H 6500 1900 60  0000 C CNN
-F 1 "CSTCE16M0V53-R0" H 6500 1800 60  0000 C CNN
-F 2 "my_parts:MADW__murata-resonator__CSTCE16M0V53-R0" H 6500 1450 60  0001 C CNN
-F 3 "" H 6500 1450 60  0000 C CNN
-	1    6500 1550
+P 2050 1950
+F 0 "X1" H 2050 2300 60  0000 C CNN
+F 1 "CSTCE16M0V53-R0" H 2050 2200 60  0000 C CNN
+F 2 "my_parts:MADW__murata-resonator__CSTCE16M0V53-R0" H 2050 1850 60  0001 C CNN
+F 3 "" H 2050 1850 60  0000 C CNN
+	1    2050 1950
 	1    0    0    -1  
 $EndComp
-Text Label 6150 1550 3    60   ~ 0
+Text Label 1700 1950 3    60   ~ 0
 XTAL1
-Text Label 6850 1550 3    60   ~ 0
+Text Label 2400 1950 3    60   ~ 0
 XTAL2
 $Comp
 L ATMEGA168PA-M IC1
@@ -192,28 +192,28 @@ $EndComp
 $Comp
 L SW_PUSH SW1
 U 1 1 53C15F1B
-P 6300 2450
-F 0 "SW1" H 6450 2560 50  0000 C CNN
-F 1 "ENTER" H 6300 2370 50  0000 C CNN
-F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6300 2450 60  0001 C CNN
-F 3 "" H 6300 2450 60  0000 C CNN
-	1    6300 2450
+P 6250 1200
+F 0 "SW1" H 6400 1310 50  0000 C CNN
+F 1 "ENTER" H 6250 1120 50  0000 C CNN
+F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1200 60  0001 C CNN
+F 3 "" H 6250 1200 60  0000 C CNN
+	1    6250 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW2
 U 1 1 53C15FEF
-P 6300 2800
-F 0 "SW2" H 6450 2910 50  0000 C CNN
-F 1 "MODE" H 6300 2720 50  0000 C CNN
-F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6300 2800 60  0001 C CNN
-F 3 "" H 6300 2800 60  0000 C CNN
-	1    6300 2800
+P 6250 1550
+F 0 "SW2" H 6400 1660 50  0000 C CNN
+F 1 "MODE" H 6250 1470 50  0000 C CNN
+F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1550 60  0001 C CNN
+F 3 "" H 6250 1550 60  0000 C CNN
+	1    6250 1550
 	1    0    0    -1  
 $EndComp
-Text Label 5950 2450 2    60   ~ 0
+Text Label 5900 1200 2    60   ~ 0
 MOSI
-Text Label 5950 2800 2    60   ~ 0
+Text Label 5900 1550 2    60   ~ 0
 MISO
 NoConn ~ 5200 3350
 Text Label 7850 1850 2    60   ~ 0
@@ -302,7 +302,7 @@ Text Label 8850 1400 0    60   ~ 0
 VCC.A
 Text Label 8850 1850 0    60   ~ 0
 VCC.B
-Text Label 2000 1700 0    60   ~ 0
+Text Label 2850 2450 0    60   ~ 0
 VCC.B2
 Text Label 3200 1250 2    60   ~ 0
 VCC.B2
@@ -314,15 +314,15 @@ Text Label 6300 4000 2    60   ~ 0
 VCC.B2
 Text Label 1800 2550 2    60   ~ 0
 GND.B
-Text Label 2000 2350 0    60   ~ 0
+Text Label 2850 3100 0    60   ~ 0
 GND.B
 Text Label 3250 4000 0    60   ~ 0
 GND.B
 Text Label 2400 3750 0    60   ~ 0
 GND.B
-Text Label 6800 2450 0    60   ~ 0
+Text Label 6750 1200 0    60   ~ 0
 GND.B
-Text Label 6550 2000 0    60   ~ 0
+Text Label 2100 2400 0    60   ~ 0
 GND.B
 Text Label 5850 4000 2    60   ~ 0
 GND.B
@@ -441,13 +441,13 @@ GND.B
 $Comp
 L LED D65
 U 1 1 53D25751
-P 6700 3250
-F 0 "D65" H 6700 3350 50  0000 C CNN
-F 1 "LED" H 6700 3150 50  0000 C CNN
-F 2 "my_parts:MADW__CHIPLED-0603" H 6700 3250 60  0001 C CNN
-F 3 "" H 6700 3250 60  0000 C CNN
-	1    6700 3250
-	1    0    0    -1  
+P 6950 3050
+F 0 "D65" H 6950 3150 50  0000 C CNN
+F 1 "LED" H 6950 2950 50  0000 C CNN
+F 2 "my_parts:MADW__CHIPLED-0603" H 6950 3050 60  0001 C CNN
+F 3 "" H 6950 3050 60  0000 C CNN
+	1    6950 3050
+	0    1    1    0   
 $EndComp
 $Comp
 L R R1
@@ -462,7 +462,7 @@ F 3 "" H 6950 3550 30  0000 C CNN
 $EndComp
 Text Label 6950 4000 2    60   ~ 0
 GND.B
-Text Label 6450 3250 2    60   ~ 0
+Text Label 6950 2750 0    60   ~ 0
 SCK
 $Comp
 L BSS138 Q2
@@ -486,27 +486,27 @@ ADC2
 $Comp
 L C C2
 U 1 1 53D662A7
-P 5750 3150
-F 0 "C2" H 5750 3250 40  0000 L CNN
-F 1 "1nF" H 5756 3065 40  0000 L CNN
-F 2 "my_parts:MADW__C0805" H 5788 3000 30  0001 C CNN
-F 3 "" H 5750 3150 60  0000 C CNN
-	1    5750 3150
-	1    0    0    -1  
+P 5950 2900
+F 0 "C2" V 6100 2900 40  0000 L CNN
+F 1 "1nF" V 5800 2900 40  0000 L CNN
+F 2 "my_parts:MADW__C0805" H 5988 2750 30  0001 C CNN
+F 3 "" H 5950 2900 60  0000 C CNN
+	1    5950 2900
+	0    1    1    0   
 $EndComp
-Text Label 5650 3500 0    60   ~ 0
+Text Label 6250 2900 0    60   ~ 0
 DTR.B
 Text Label 5300 2900 0    60   ~ 0
 RST
 $Comp
 L R R2
 U 1 1 53F8C068
-P 6050 3150
-F 0 "R2" V 6130 3150 40  0000 C CNN
-F 1 "100k" V 6057 3151 40  0000 C CNN
-F 2 "my_parts:MADW__R0603_2" V 5980 3150 30  0001 C CNN
-F 3 "" H 6050 3150 30  0000 C CNN
-	1    6050 3150
+P 5750 2550
+F 0 "R2" V 5830 2550 40  0000 C CNN
+F 1 "10k" V 5757 2551 40  0000 C CNN
+F 2 "my_parts:MADW__R0603_2" V 5680 2550 30  0001 C CNN
+F 3 "" H 5750 2550 30  0000 C CNN
+	1    5750 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,9 +644,9 @@ VCC.B
 Text Label 2350 1250 0    60   ~ 0
 VCC.B2
 Wire Wire Line
-	1950 2200 1950 2350
+	2800 2950 2800 3100
 Wire Wire Line
-	1950 1700 1950 1800
+	2800 2450 2800 2550
 Wire Wire Line
 	2300 3550 2400 3550
 Wire Wire Line
@@ -724,21 +724,19 @@ Wire Notes Line
 Wire Notes Line
 	7200 900  1150 900 
 Wire Wire Line
-	6500 1900 6500 2000
+	2050 2300 2050 2400
 Wire Wire Line
-	6850 1450 6850 1550
+	2400 1850 2400 1950
 Wire Wire Line
-	6150 1450 6150 1550
+	1700 1850 1700 1950
 Wire Wire Line
-	5200 2900 6050 2900
+	6550 1200 6750 1200
 Wire Wire Line
-	6600 2450 6800 2450
+	6650 1550 6550 1550
 Wire Wire Line
-	6700 2800 6600 2800
+	5900 1200 5950 1200
 Wire Wire Line
-	5950 2450 6000 2450
-Wire Wire Line
-	5950 2800 6000 2800
+	5900 1550 5950 1550
 Wire Wire Line
 	6300 3800 6300 4000
 Wire Notes Line
@@ -761,18 +759,18 @@ Wire Wire Line
 	3300 3450 3200 3450
 Connection ~ 3200 3550
 Wire Wire Line
-	1950 2350 2000 2350
+	2800 3100 2850 3100
 Wire Wire Line
-	1950 1700 2000 1700
+	2800 2450 2850 2450
 Wire Wire Line
 	3200 3450 3200 4000
 Wire Wire Line
 	3200 4000 3250 4000
-Connection ~ 6700 2450
+Connection ~ 6650 1200
 Wire Wire Line
-	6700 2800 6700 2450
+	6650 1550 6650 1200
 Wire Wire Line
-	6500 2000 6550 2000
+	2050 2400 2100 2400
 Wire Wire Line
 	7850 1850 7950 1850
 Wire Wire Line
@@ -851,10 +849,6 @@ Wire Wire Line
 	6950 3250 6950 3300
 Wire Wire Line
 	6950 3800 6950 4000
-Wire Wire Line
-	6450 3250 6500 3250
-Wire Wire Line
-	6900 3250 6950 3250
 Wire Notes Line
 	7400 2200 7400 4250
 Wire Notes Line
@@ -891,8 +885,6 @@ Wire Wire Line
 	5200 2500 5300 2500
 Wire Wire Line
 	1900 2650 1800 2650
-Wire Wire Line
-	5650 3400 6050 3400
 Wire Wire Line
 	9400 2750 9400 2650
 Wire Wire Line
@@ -933,14 +925,6 @@ Wire Wire Line
 	9150 2900 9100 2900
 Wire Wire Line
 	8200 2900 8600 2900
-Wire Wire Line
-	5750 3350 5750 3400
-Connection ~ 5750 3400
-Wire Wire Line
-	5750 2950 5750 2900
-Connection ~ 5750 2900
-Wire Wire Line
-	5650 3400 5650 3500
 Wire Wire Line
 	7800 3750 7800 3950
 Wire Wire Line
@@ -1059,4 +1043,16 @@ Text Label 5300 2800 0    60   ~ 0
 KEY.B
 Wire Wire Line
 	5200 2800 5300 2800
+Wire Wire Line
+	5200 2900 5750 2900
+Wire Wire Line
+	6150 2900 6250 2900
+Wire Wire Line
+	6950 2750 6950 2850
+Wire Wire Line
+	5750 2900 5750 2800
+Text Label 5750 2200 0    60   ~ 0
+VCC.B2
+Wire Wire Line
+	5750 2200 5750 2300
 $EndSCHEMATC
