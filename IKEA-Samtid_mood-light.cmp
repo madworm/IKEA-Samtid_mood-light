@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-03 BZR 5403)-product   date = Thu 05 Feb 2015 03:06:16 AM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-03 BZR 5403)-product   date = Thu 05 Feb 2015 03:57:25 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -968,9 +968,16 @@ EndCmp
 
 BeginCmp
 TimeStamp = /53C36DBC;
-Reference = P2;
+Reference = P2.1;
 ValeurCmp = POWER;
 IdModule  = SIL-Headers:SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D38AA3;
+Reference = P2.2;
+ValeurCmp = POWER;
+IdModule  = SIL-Headers:SIL-2;
 EndCmp
 
 BeginCmp

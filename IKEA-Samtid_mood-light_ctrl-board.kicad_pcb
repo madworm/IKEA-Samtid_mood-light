@@ -16,7 +16,7 @@
   (title_block
     (title IKEA-Samtid_mood-light_ctrl-board)
     (date "Thu 05 Feb 2015")
-    (rev 0.42.a)
+    (rev 0.43.a)
     (company "2015 - blog.spitzenpfeil.org")
   )
 
@@ -967,7 +967,7 @@
   (gr_text "IKEA Samtid" (at 133.7 97.85 125) (layer F.SilkS) (tstamp 53F9E660)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "mood-l. ctrl\nV0.42.a" (at 165.83 97.13 55) (layer F.SilkS)
+  (gr_text "mood-l. ctrl\nV0.43.a" (at 165.83 97.13 55) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text 13 (at 160.34 89.84) (layer B.SilkS)
