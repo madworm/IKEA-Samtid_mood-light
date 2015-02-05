@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Wed 04 Feb 2015"
-Rev "0.41"
+Date "Thu 05 Feb 2015"
+Rev "0.42"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -532,28 +532,6 @@ F 3 "" H 9550 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
-U 1 1 53FA4260
-P 8400 3050
-F 0 "R3" V 8480 3050 40  0000 C CNN
-F 1 "100k" V 8407 3051 40  0000 C CNN
-F 2 "my_parts:MADW__R0603_2" V 8330 3050 30  0001 C CNN
-F 3 "" H 8400 3050 30  0000 C CNN
-	1    8400 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L R R4
-U 1 1 53FA60FB
-P 8400 3200
-F 0 "R4" V 8480 3200 40  0000 C CNN
-F 1 "100k" V 8407 3201 40  0000 C CNN
-F 2 "my_parts:MADW__R0603_2" V 8330 3200 30  0001 C CNN
-F 3 "" H 8400 3200 30  0000 C CNN
-	1    8400 3200
-	0    1    1    0   
-$EndComp
-$Comp
 L DIODESCH DS1
 U 1 1 53FA7AD1
 P 2000 1250
@@ -828,7 +806,7 @@ Wire Notes Line
 Wire Wire Line
 	7950 2750 8050 2750
 Wire Wire Line
-	7950 3050 8150 3050
+	7950 3050 9100 3050
 Wire Wire Line
 	8200 2950 7950 2950
 Wire Wire Line
@@ -896,16 +874,7 @@ Connection ~ 9400 2650
 Wire Wire Line
 	8050 3250 8000 3250
 Wire Wire Line
-	8100 3050 8100 3200
-Wire Wire Line
-	8650 3050 9100 3050
-Connection ~ 8100 3050
-Wire Wire Line
-	8100 3200 8150 3200
-Wire Wire Line
 	9550 3200 9550 3050
-Wire Wire Line
-	8650 3200 9550 3200
 Wire Notes Line
 	7400 2200 11000 2200
 Wire Notes Line
@@ -1055,4 +1024,9 @@ Text Label 5750 2200 0    60   ~ 0
 VCC.B2
 Wire Wire Line
 	5750 2200 5750 2300
+Wire Wire Line
+	9000 3050 9000 3200
+Connection ~ 9000 3050
+Wire Wire Line
+	9000 3200 9550 3200
 $EndSCHEMATC
