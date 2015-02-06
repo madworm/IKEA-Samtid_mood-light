@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Thu 05 Feb 2015"
-Rev "0.43"
+Date "Fri 06 Feb 2015"
+Rev "0.44"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -60,7 +60,7 @@ $Comp
 L MADW__AVR_ISP JP1
 U 1 1 53BED211
 P 2000 3650
-F 0 "JP1" H 1950 3900 50  0000 L BNN
+F 0 "JP1" H 1950 3850 50  0000 L BNN
 F 1 "AVR_ISP" H 1850 3350 50  0000 L BNN
 F 2 "my_parts:MADW__PIN_ARRAY_3x2_1.27mm" H 2000 3650 60  0001 C CNN
 F 3 "" H 2000 3650 60  0000 C CNN
@@ -70,12 +70,12 @@ $EndComp
 $Comp
 L CONN_6 P1
 U 1 1 53BED26D
-P 2250 2800
-F 0 "P1" V 2200 2800 60  0000 C CNN
-F 1 "FTDI" V 2300 2800 60  0000 C CNN
-F 2 "SIL-Headers:SIL-6" H 2250 2800 60  0001 C CNN
-F 3 "" H 2250 2800 60  0000 C CNN
-	1    2250 2800
+P 2250 2650
+F 0 "P1" V 2200 2650 60  0000 C CNN
+F 1 "FTDI" V 2300 2650 60  0000 C CNN
+F 2 "SIL-Headers:SIL-6" H 2250 2650 60  0001 C CNN
+F 3 "" H 2250 2650 60  0000 C CNN
+	1    2250 2650
 	1    0    0    -1  
 $EndComp
 Text Label 2400 3650 0    60   ~ 0
@@ -86,11 +86,11 @@ Text Label 1600 3650 2    60   ~ 0
 SCK
 Text Label 1600 3750 2    60   ~ 0
 RST
-Text Label 1800 2850 2    60   ~ 0
+Text Label 1800 2700 2    60   ~ 0
 RXI.B
-Text Label 1800 2950 2    60   ~ 0
+Text Label 1800 2800 2    60   ~ 0
 TXO.B
-Text Label 1800 3050 2    60   ~ 0
+Text Label 1800 2900 2    60   ~ 0
 DTR.B
 Text Label 5300 1850 0    60   ~ 0
 MISO
@@ -166,17 +166,17 @@ $EndComp
 $Comp
 L generic_resonator X1
 U 1 1 53C088B5
-P 2050 1950
-F 0 "X1" H 2050 2300 60  0000 C CNN
-F 1 "CSTCE16M0V53-R0" H 2050 2200 60  0000 C CNN
-F 2 "my_parts:MADW__murata-resonator__CSTCE16M0V53-R0" H 2050 1850 60  0001 C CNN
-F 3 "" H 2050 1850 60  0000 C CNN
-	1    2050 1950
+P 2000 1550
+F 0 "X1" H 1550 1800 60  0000 C CNN
+F 1 "CSTCE16M0V53-R0" H 2100 1800 60  0000 C CNN
+F 2 "my_parts:MADW__murata-resonator__CSTCE16M0V53-R0" H 2000 1450 60  0001 C CNN
+F 3 "" H 2000 1450 60  0000 C CNN
+	1    2000 1550
 	1    0    0    -1  
 $EndComp
-Text Label 1700 1950 3    60   ~ 0
+Text Label 1650 1550 3    60   ~ 0
 XTAL1
-Text Label 2400 1950 3    60   ~ 0
+Text Label 2350 1550 3    60   ~ 0
 XTAL2
 $Comp
 L ATMEGA168PA-M IC1
@@ -192,28 +192,28 @@ $EndComp
 $Comp
 L SW_PUSH SW1
 U 1 1 53C15F1B
-P 6250 1200
-F 0 "SW1" H 6400 1310 50  0000 C CNN
-F 1 "ENTER" H 6250 1120 50  0000 C CNN
-F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1200 60  0001 C CNN
-F 3 "" H 6250 1200 60  0000 C CNN
-	1    6250 1200
+P 6250 1450
+F 0 "SW1" H 6400 1560 50  0000 C CNN
+F 1 "ENTER" H 6250 1370 50  0000 C CNN
+F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1450 60  0001 C CNN
+F 3 "" H 6250 1450 60  0000 C CNN
+	1    6250 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L SW_PUSH SW2
 U 1 1 53C15FEF
-P 6250 1550
-F 0 "SW2" H 6400 1660 50  0000 C CNN
-F 1 "MODE" H 6250 1470 50  0000 C CNN
-F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1550 60  0001 C CNN
-F 3 "" H 6250 1550 60  0000 C CNN
-	1    6250 1550
+P 6250 1800
+F 0 "SW2" H 6400 1910 50  0000 C CNN
+F 1 "MODE" H 6250 1720 50  0000 C CNN
+F 2 "my_parts:MADW__push-button-SMD-3.7x6.0" H 6250 1800 60  0001 C CNN
+F 3 "" H 6250 1800 60  0000 C CNN
+	1    6250 1800
 	1    0    0    -1  
 $EndComp
-Text Label 5900 1200 2    60   ~ 0
+Text Label 5900 1450 2    60   ~ 0
 MOSI
-Text Label 5900 1550 2    60   ~ 0
+Text Label 5900 1800 2    60   ~ 0
 MISO
 NoConn ~ 5200 3350
 Text Label 7850 1850 2    60   ~ 0
@@ -236,7 +236,7 @@ Text Notes 550  7400 0    39   ~ 0
 NoConn ~ 3300 2050
 Text Label 7850 1400 2    60   ~ 0
 LEDS.A
-Text Notes 1600 3200 0    39   ~ 0
+Text Notes 1600 3050 0    39   ~ 0
 6x1, 0.1in header, female, DNP
 Text Notes 1550 4050 0    39   ~ 0
 3x2, 0.05in header, female, DNP
@@ -303,16 +303,16 @@ VCC.A
 Text Label 8850 1850 0    60   ~ 0
 VCC.B
 Text Label 2850 2450 0    60   ~ 0
-VCC.B2
+VCC.B
 Text Label 3200 1250 2    60   ~ 0
-VCC.B2
-Text Label 1800 2750 2    60   ~ 0
-VCC.B2
+VCC.B
+Text Label 1800 2600 2    60   ~ 0
+VCC.B
 Text Label 2400 3550 0    60   ~ 0
-VCC.B2
+VCC.B
 Text Label 6300 4000 2    60   ~ 0
-VCC.B2
-Text Label 1800 2550 2    60   ~ 0
+VCC.B
+Text Label 1800 2400 2    60   ~ 0
 GND.B
 Text Label 2850 3100 0    60   ~ 0
 GND.B
@@ -320,9 +320,9 @@ Text Label 3250 4000 0    60   ~ 0
 GND.B
 Text Label 2400 3750 0    60   ~ 0
 GND.B
-Text Label 6750 1200 0    60   ~ 0
+Text Label 6750 1450 0    60   ~ 0
 GND.B
-Text Label 2100 2400 0    60   ~ 0
+Text Label 2050 2000 0    60   ~ 0
 GND.B
 Text Label 5850 4000 2    60   ~ 0
 GND.B
@@ -335,15 +335,15 @@ GND.A
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 53C36104
-P 10350 3800
-F 0 "#FLG03" H 10350 3895 30  0001 C CNN
-F 1 "PWR_FLAG" H 10350 3980 30  0000 C CNN
-F 2 "" H 10350 3800 60  0000 C CNN
-F 3 "" H 10350 3800 60  0000 C CNN
-	1    10350 3800
+P 10400 2950
+F 0 "#FLG03" H 10400 3045 30  0001 C CNN
+F 1 "PWR_FLAG" H 10400 3130 30  0000 C CNN
+F 2 "" H 10400 2950 60  0000 C CNN
+F 3 "" H 10400 2950 60  0000 C CNN
+	1    10400 2950
 	1    0    0    -1  
 $EndComp
-Text Label 10350 4000 2    60   ~ 0
+Text Label 10400 3150 2    60   ~ 0
 GND.A
 $Comp
 L +5V #PWR04
@@ -370,7 +370,7 @@ F 3 "" H 3650 6150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8250 1050 0    60   ~ 0
-Boart-to-Board
+Boart-to-Board [A] to [B]
 Text Label 3650 5400 2    60   ~ 0
 GND.A
 $Comp
@@ -481,14 +481,14 @@ Text Notes 2550 6350 0    39   ~ 0
 LED side\n5V > VCC.A
 Text Label 5300 2500 0    60   ~ 0
 ADC2
-Text Label 1800 2650 2    60   ~ 0
+Text Label 1800 2500 2    60   ~ 0
 ADC2
 $Comp
 L C C2
 U 1 1 53D662A7
 P 5950 2900
 F 0 "C2" V 6100 2900 40  0000 L CNN
-F 1 "1nF" V 5800 2900 40  0000 L CNN
+F 1 "1nF-ish" V 5800 2900 40  0000 L CNN
 F 2 "my_parts:MADW__C0805" H 5988 2750 30  0001 C CNN
 F 3 "" H 5950 2900 60  0000 C CNN
 	1    5950 2900
@@ -534,12 +534,12 @@ $EndComp
 $Comp
 L DIODESCH DS1
 U 1 1 53FA7AD1
-P 2000 1250
-F 0 "DS1" H 2000 1350 40  0000 C CNN
-F 1 "SS14L" H 2000 1150 40  0000 C CNN
-F 2 "my_parts:MADW__diode_sub-SMA" H 2000 1250 60  0001 C CNN
-F 3 "" H 2000 1250 60  0000 C CNN
-	1    2000 1250
+P 8850 3700
+F 0 "DS1" H 8850 3800 40  0000 C CNN
+F 1 "SS14L" H 8850 3600 40  0000 C CNN
+F 2 "my_parts:MADW__diode_sub-SMA" H 8850 3700 60  0001 C CNN
+F 3 "" H 8850 3700 60  0000 C CNN
+	1    8850 3700
 	1    0    0    -1  
 $EndComp
 Text Notes 7500 2400 0    60   ~ 0
@@ -557,13 +557,13 @@ TXO.B
 $Comp
 L MADW__AP2204K-SOT23-5 U1
 U 1 1 54CF1D17
-P 9000 3800
-F 0 "U1" H 9000 4000 60  0000 C CNN
-F 1 "AP2204K-SOT23-5" H 9000 4100 60  0000 C CNN
-F 2 "my_parts:MADW__SOT23-5" H 9000 3750 60  0001 C CNN
-F 3 "" H 9000 3750 60  0000 C CNN
-F 4 "(TS 5205 CX533)" H 9000 4200 39  0000 C CNN "Alternative part"
-	1    9000 3800
+P 9750 3800
+F 0 "U1" H 9750 4000 60  0000 C CNN
+F 1 "AP2204K-SOT23-5" H 9750 4100 60  0000 C CNN
+F 2 "my_parts:MADW__SOT23-5" H 9750 3750 60  0001 C CNN
+F 3 "" H 9750 3750 60  0000 C CNN
+F 4 "(TS 5205 CX533)" H 9750 4200 39  0000 C CNN "Alternative part"
+	1    9750 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -577,50 +577,112 @@ F 3 "" H 8550 3700 60  0000 C CNN
 	1    8550 3700
 	1    0    0    -1  
 $EndComp
-Text Label 9550 3900 0    60   ~ 0
+Text Label 10300 3900 0    60   ~ 0
 GND.A
-NoConn ~ 9450 3800
-Text Label 9550 3700 0    60   ~ 0
+NoConn ~ 10200 3800
+Text Label 10300 3700 0    60   ~ 0
 VCC.A
-Text Notes 8850 4100 0    60   ~ 0
+Text Notes 9600 4100 0    60   ~ 0
 (3.3V)
 $Comp
-L +5V #PWR08
-U 1 1 54CF65EE
-P 10650 3900
-F 0 "#PWR08" H 10650 3990 20  0001 C CNN
-F 1 "+5V" H 10650 3990 30  0000 C CNN
-F 2 "" H 10650 3900 60  0000 C CNN
-F 3 "" H 10650 3900 60  0000 C CNN
-	1    10650 3900
-	-1   0    0    1   
-$EndComp
-$Comp
-L PWR_FLAG #FLG09
+L PWR_FLAG #FLG08
 U 1 1 54CF66C2
-P 10650 3800
-F 0 "#FLG09" H 10650 3895 30  0001 C CNN
-F 1 "PWR_FLAG" H 10650 3980 30  0000 C CNN
-F 2 "" H 10650 3800 60  0000 C CNN
-F 3 "" H 10650 3800 60  0000 C CNN
-	1    10650 3800
+P 10700 2950
+F 0 "#FLG08" H 10700 3045 30  0001 C CNN
+F 1 "PWR_FLAG" H 10700 3130 30  0000 C CNN
+F 2 "" H 10700 2950 60  0000 C CNN
+F 3 "" H 10700 2950 60  0000 C CNN
+	1    10700 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR010
+L +5V #PWR09
 U 1 1 54CF6A4C
 P 10000 3250
-F 0 "#PWR010" H 10000 3340 20  0001 C CNN
+F 0 "#PWR09" H 10000 3340 20  0001 C CNN
 F 1 "+5V" H 10000 3340 30  0000 C CNN
 F 2 "" H 10000 3250 60  0000 C CNN
 F 3 "" H 10000 3250 60  0000 C CNN
 	1    10000 3250
 	1    0    0    -1  
 $EndComp
-Text Label 1700 1250 2    60   ~ 0
+Text Notes 8600 4000 0    39   ~ 0
+prevent backfeeding\nof power
+NoConn ~ 5200 3250
+NoConn ~ 9650 1400
+NoConn ~ 9650 1800
+Text Label 6400 5350 0    60   ~ 0
+GND.A
+Text Label 6400 5000 0    60   ~ 0
+RXI.A
+Text Label 6400 4900 0    60   ~ 0
+TXO.A
+$Comp
+L C C3
+U 1 1 54D0D4D7
+P 10700 3800
+F 0 "C3" H 10700 3900 40  0000 L CNN
+F 1 "1µ" H 10706 3715 40  0000 L CNN
+F 2 "my_parts:MADW__C0805" H 10738 3650 30  0001 C CNN
+F 3 "" H 10700 3800 60  0000 C CNN
+	1    10700 3800
+	1    0    0    -1  
+$EndComp
+Text Label 6400 4800 0    60   ~ 0
+DTR.A
+$Comp
+L BT-Radio_HC-05 BT-Radio1
+U 1 1 54D124E2
+P 5950 5050
+F 0 "BT-Radio1" H 5950 4600 60  0000 C CNN
+F 1 "HC-05 [JY-MCU]" H 5750 5500 60  0000 C CNN
+F 2 "SIL-Headers:SIL-6" H 6000 5050 60  0001 C CNN
+F 3 "" H 6000 5050 60  0000 C CNN
+	1    5950 5050
+	-1   0    0    -1  
+$EndComp
+Text Label 6400 5100 0    60   ~ 0
+KEY.A
+$Comp
+L +5V #PWR010
+U 1 1 54D136E9
+P 6400 5250
+F 0 "#PWR010" H 6400 5340 20  0001 C CNN
+F 1 "+5V" H 6400 5340 30  0000 C CNN
+F 2 "" H 6400 5250 60  0000 C CNN
+F 3 "" H 6400 5250 60  0000 C CNN
+	1    6400 5250
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 5800 0    60   ~ 0
+(3.3V signals,\non-board 3.3V reg.)
+Text Label 9550 1300 2    60   ~ 0
+KEY.A
+Text Label 9550 1700 2    60   ~ 0
+KEY.B
+Text Label 5300 2800 0    60   ~ 0
+KEY.B
+Text Label 5750 2200 0    60   ~ 0
 VCC.B
-Text Label 2350 1250 0    60   ~ 0
-VCC.B2
+$Comp
+L CONN_2 P2.2
+U 1 1 54D38AA3
+P 7600 3700
+F 0 "P2.2" V 7550 3700 40  0000 C CNN
+F 1 "POWER" V 7650 3700 40  0000 C CNN
+F 2 "SIL-Headers:SIL-2" H 7600 3700 60  0001 C CNN
+F 3 "" H 7600 3700 60  0000 C CNN
+	1    7600 3700
+	-1   0    0    -1  
+$EndComp
+Text Label 8000 3800 0    60   ~ 0
+GND.A
+Text Label 8000 3600 0    60   ~ 0
+5V_raw
+Text Notes 7500 4000 0    60   ~ 0
+(DEAN mini-T)
+Text Notes 6900 1150 0    118  ~ 0
+[B]
 Wire Wire Line
 	2800 2950 2800 3100
 Wire Wire Line
@@ -638,15 +700,15 @@ Wire Wire Line
 Wire Wire Line
 	1600 3550 1700 3550
 Wire Wire Line
-	1800 2550 1900 2550
+	1800 2400 1900 2400
 Wire Wire Line
-	1800 2750 1900 2750
+	1800 2600 1900 2600
 Wire Wire Line
-	1800 3050 1900 3050
+	1800 2900 1900 2900
 Wire Wire Line
-	1800 2950 1900 2950
+	1800 2800 1900 2800
 Wire Wire Line
-	1800 2850 1900 2850
+	1800 2700 1900 2700
 Wire Wire Line
 	5200 1850 5300 1850
 Wire Wire Line
@@ -702,19 +764,19 @@ Wire Notes Line
 Wire Notes Line
 	7200 900  1150 900 
 Wire Wire Line
-	2050 2300 2050 2400
+	2000 1900 2000 2000
 Wire Wire Line
-	2400 1850 2400 1950
+	2350 1450 2350 1550
 Wire Wire Line
-	1700 1850 1700 1950
+	1650 1450 1650 1550
 Wire Wire Line
-	6550 1200 6750 1200
+	6550 1450 6750 1450
 Wire Wire Line
-	6650 1550 6550 1550
+	6650 1800 6550 1800
 Wire Wire Line
-	5900 1200 5950 1200
+	5900 1450 5950 1450
 Wire Wire Line
-	5900 1550 5950 1550
+	5900 1800 5950 1800
 Wire Wire Line
 	6300 3800 6300 4000
 Wire Notes Line
@@ -744,11 +806,11 @@ Wire Wire Line
 	3200 3450 3200 4000
 Wire Wire Line
 	3200 4000 3250 4000
-Connection ~ 6650 1200
+Connection ~ 6650 1450
 Wire Wire Line
-	6650 1550 6650 1200
+	6650 1800 6650 1450
 Wire Wire Line
-	2050 2400 2100 2400
+	2000 2000 2050 2000
 Wire Wire Line
 	7850 1850 7950 1850
 Wire Wire Line
@@ -760,7 +822,7 @@ Wire Notes Line
 Wire Notes Line
 	10950 2050 7400 2050
 Wire Wire Line
-	10350 3800 10350 4000
+	10400 2950 10400 3150
 Wire Wire Line
 	3650 5400 3750 5400
 Wire Wire Line
@@ -828,8 +890,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 3800 6950 4000
 Wire Notes Line
-	7400 2200 7400 4250
-Wire Notes Line
 	2300 5650 2300 5750
 Wire Notes Line
 	2300 5800 2300 5850
@@ -862,7 +922,7 @@ Wire Notes Line
 Wire Wire Line
 	5200 2500 5300 2500
 Wire Wire Line
-	1900 2650 1800 2650
+	1900 2500 1800 2500
 Wire Wire Line
 	9400 2750 9400 2650
 Wire Wire Line
@@ -875,12 +935,6 @@ Wire Wire Line
 	8050 3250 8000 3250
 Wire Wire Line
 	9550 3200 9550 3050
-Wire Notes Line
-	7400 2200 11000 2200
-Wire Notes Line
-	11000 2200 11000 4250
-Wire Notes Line
-	11000 4250 7400 4250
 Wire Wire Line
 	9850 3150 9850 3300
 Wire Wire Line
@@ -895,26 +949,19 @@ Wire Wire Line
 Wire Wire Line
 	8200 2900 8600 2900
 Wire Wire Line
-	8550 3700 8550 3900
+	9300 3700 9300 3900
 Wire Wire Line
-	9450 3700 9850 3700
+	10200 3700 10600 3700
 Wire Wire Line
-	9450 3900 9850 3900
-Wire Wire Line
-	10650 3800 10650 3900
+	10200 3900 10600 3900
 Wire Wire Line
 	10000 3300 10000 3250
 Wire Wire Line
-	2250 1250 2350 1250
+	9100 3700 9300 3700
 Wire Wire Line
-	1700 1250 1800 1250
-Text Notes 1600 1500 0    39   ~ 0
-prevent backfeeding of power
-NoConn ~ 5200 3250
+	8550 3700 8650 3700
 Wire Wire Line
 	5200 3550 5300 3550
-NoConn ~ 9650 1400
-NoConn ~ 9650 1800
 Wire Wire Line
 	10450 1300 10550 1300
 Wire Wire Line
@@ -923,44 +970,14 @@ Wire Wire Line
 	10450 1700 10550 1700
 Wire Wire Line
 	10550 1800 10450 1800
-Text Label 6400 5350 0    60   ~ 0
-GND.A
-Text Label 6400 5000 0    60   ~ 0
-RXI.A
-Text Label 6400 4900 0    60   ~ 0
-TXO.A
-$Comp
-L C C3
-U 1 1 54D0D4D7
-P 9950 3800
-F 0 "C3" H 9950 3900 40  0000 L CNN
-F 1 "1µ" H 9956 3715 40  0000 L CNN
-F 2 "my_parts:MADW__C0805" H 9988 3650 30  0001 C CNN
-F 3 "" H 9950 3800 60  0000 C CNN
-	1    9950 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	9850 3700 9850 3600
+	10600 3700 10600 3600
 Wire Wire Line
-	9850 3600 9950 3600
+	10600 3600 10700 3600
 Wire Wire Line
-	9850 3900 9850 4000
+	10600 3900 10600 4000
 Wire Wire Line
-	9850 4000 9950 4000
-Text Label 6400 4800 0    60   ~ 0
-DTR.A
-$Comp
-L BT-Radio_HC-05 BT-Radio1
-U 1 1 54D124E2
-P 5950 5050
-F 0 "BT-Radio1" H 5950 4600 60  0000 C CNN
-F 1 "HC-05 [JY-MCU]" H 5750 5500 60  0000 C CNN
-F 2 "SIL-Headers:SIL-6" H 6000 5050 60  0001 C CNN
-F 3 "" H 6000 5050 60  0000 C CNN
-	1    5950 5050
-	-1   0    0    -1  
-$EndComp
+	10600 4000 10700 4000
 Wire Wire Line
 	6300 5250 6400 5250
 Wire Wire Line
@@ -973,39 +990,18 @@ Wire Wire Line
 	6300 5000 6400 5000
 Wire Wire Line
 	6300 5100 6400 5100
-Text Label 6400 5100 0    60   ~ 0
-KEY.A
-$Comp
-L +5V #PWR011
-U 1 1 54D136E9
-P 6400 5250
-F 0 "#PWR011" H 6400 5340 20  0001 C CNN
-F 1 "+5V" H 6400 5340 30  0000 C CNN
-F 2 "" H 6400 5250 60  0000 C CNN
-F 3 "" H 6400 5250 60  0000 C CNN
-	1    6400 5250
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	5500 4400 6800 4400
-Text Notes 5700 5800 0    60   ~ 0
-(3.3V signals,\non-board 3.3V reg.)
 Wire Notes Line
 	5500 4400 5500 5900
 Wire Notes Line
 	5500 5900 6800 5900
 Wire Notes Line
 	6800 5900 6800 4400
-Text Label 9550 1300 2    60   ~ 0
-KEY.A
-Text Label 9550 1700 2    60   ~ 0
-KEY.B
 Wire Wire Line
 	9550 1300 9650 1300
 Wire Wire Line
 	9550 1700 9650 1700
-Text Label 5300 2800 0    60   ~ 0
-KEY.B
 Wire Wire Line
 	5200 2800 5300 2800
 Wire Wire Line
@@ -1016,8 +1012,6 @@ Wire Wire Line
 	6950 2750 6950 2850
 Wire Wire Line
 	5750 2900 5750 2800
-Text Label 5750 2200 0    60   ~ 0
-VCC.B2
 Wire Wire Line
 	5750 2200 5750 2300
 Wire Wire Line
@@ -1025,25 +1019,46 @@ Wire Wire Line
 Connection ~ 9000 3050
 Wire Wire Line
 	9000 3200 9550 3200
+Wire Wire Line
+	7950 3600 8000 3600
+Wire Wire Line
+	7950 3800 8000 3800
+Wire Notes Line
+	6850 900  6850 1250
+Wire Notes Line
+	6850 1250 7250 1250
+Wire Notes Line
+	7400 2200 7400 4250
+Wire Notes Line
+	7400 4250 10950 4250
+Wire Notes Line
+	10950 4250 10950 2200
+Wire Notes Line
+	10950 2200 7400 2200
 $Comp
-L CONN_2 P2.2
-U 1 1 54D38AA3
-P 7600 3800
-F 0 "P2.2" V 7550 3800 40  0000 C CNN
-F 1 "POWER" V 7650 3800 40  0000 C CNN
-F 2 "SIL-Headers:SIL-2" H 7600 3800 60  0001 C CNN
-F 3 "" H 7600 3800 60  0000 C CNN
-	1    7600 3800
-	-1   0    0    -1  
+L +5V #PWR011
+U 1 1 54CF65EE
+P 10700 3050
+F 0 "#PWR011" H 10700 3140 20  0001 C CNN
+F 1 "+5V" H 10700 3140 30  0000 C CNN
+F 2 "" H 10700 3050 60  0000 C CNN
+F 3 "" H 10700 3050 60  0000 C CNN
+	1    10700 3050
+	-1   0    0    1   
 $EndComp
-Text Label 8000 3900 0    60   ~ 0
-GND.A
-Text Label 8000 3700 0    60   ~ 0
-5V_raw
 Wire Wire Line
-	7950 3700 8000 3700
+	10700 2950 10700 3050
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 54D5CFD8
+P 9100 3600
+F 0 "#FLG012" H 9100 3695 30  0001 C CNN
+F 1 "PWR_FLAG" H 9100 3780 30  0000 C CNN
+F 2 "" H 9100 3600 60  0000 C CNN
+F 3 "" H 9100 3600 60  0000 C CNN
+	1    9100 3600
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7950 3900 8000 3900
-Text Notes 7500 4100 0    60   ~ 0
-(DEAN mini-T)
+	9100 3600 9100 3700
 $EndSCHEMATC
