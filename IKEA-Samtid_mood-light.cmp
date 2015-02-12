@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-06 BZR 5406)-product   date = Fri 06 Feb 2015 09:40:12 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-11 BZR 5414)-product   date = Thu 12 Feb 2015 02:32:51 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -24,455 +24,455 @@ EndCmp
 BeginCmp
 TimeStamp = /54D0D4D7;
 Reference = C3;
-ValeurCmp = 1µ;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF0E88;
 Reference = C5;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35A9;
 Reference = C6;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF13F4;
 Reference = C7;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35AF;
 Reference = C8;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1432;
 Reference = C9;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35B5;
 Reference = C10;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF144B;
 Reference = C11;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35BB;
 Reference = C12;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1478;
 Reference = C13;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35C1;
 Reference = C14;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1491;
 Reference = C15;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35C7;
 Reference = C16;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF14AA;
 Reference = C17;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35CD;
 Reference = C18;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF14C3;
 Reference = C19;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35D3;
 Reference = C20;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EA7;
 Reference = C21;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35D9;
 Reference = C22;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EAE;
 Reference = C23;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35DF;
 Reference = C24;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EB4;
 Reference = C25;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35E5;
 Reference = C26;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EBA;
 Reference = C27;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35EB;
 Reference = C28;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EC0;
 Reference = C29;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35F1;
 Reference = C30;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1EC6;
 Reference = C31;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35F7;
 Reference = C32;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1ECC;
 Reference = C33;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF35FD;
 Reference = C34;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF1ED2;
 Reference = C35;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BEFA30/53BF3603;
 Reference = C36;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C24FEA;
 Reference = C37;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25066;
 Reference = C38;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C24FFD;
 Reference = C39;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2506D;
 Reference = C40;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25004;
 Reference = C41;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25074;
 Reference = C42;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2500B;
 Reference = C43;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2507B;
 Reference = C44;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25012;
 Reference = C45;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25082;
 Reference = C46;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25019;
 Reference = C47;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25089;
 Reference = C48;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25020;
 Reference = C49;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25090;
 Reference = C50;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25027;
 Reference = C51;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25097;
 Reference = C52;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2502E;
 Reference = C53;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2509E;
 Reference = C54;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25035;
 Reference = C55;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250A5;
 Reference = C56;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2503C;
 Reference = C57;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250AC;
 Reference = C58;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25043;
 Reference = C59;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250B3;
 Reference = C60;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2504A;
 Reference = C61;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250BA;
 Reference = C62;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25051;
 Reference = C63;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250C1;
 Reference = C64;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C25058;
 Reference = C65;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250C8;
 Reference = C66;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C2505F;
 Reference = C67;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53C16B71/53C250CF;
 Reference = C68;
-ValeurCmp = C;
+ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
 EndCmp
 
@@ -967,17 +967,10 @@ IdModule  = SIL-Headers:SIL-6;
 EndCmp
 
 BeginCmp
-TimeStamp = /53C36DBC;
-Reference = P2.1;
-ValeurCmp = POWER;
-IdModule  = SIL-Headers:SIL-4;
-EndCmp
-
-BeginCmp
 TimeStamp = /54D38AA3;
-Reference = P2.2;
+Reference = P2;
 ValeurCmp = POWER;
-IdModule  = SIL-Headers:SIL-2;
+IdModule  = RC-Battery-Connectors:Deans_mini-T_male;
 EndCmp
 
 BeginCmp

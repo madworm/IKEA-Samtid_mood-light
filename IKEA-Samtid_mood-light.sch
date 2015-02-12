@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Fri 06 Feb 2015"
-Rev "0.44"
+Date "Thu 12 Feb 2015"
+Rev "0.50"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -155,12 +155,12 @@ WS2812B LEDs + capacitors
 $Comp
 L FUSE F1
 U 1 1 53C3478B
-P 8850 2900
-F 0 "F1" H 8950 2950 40  0000 C CNN
-F 1 "3A-poly" H 8850 2750 40  0000 C CNN
-F 2 "SM1812_1206" H 8850 2900 60  0001 C CNN
-F 3 "" H 8850 2900 60  0000 C CNN
-	1    8850 2900
+P 8850 2850
+F 0 "F1" H 8950 2900 40  0000 C CNN
+F 1 "3A-poly" H 8850 2700 40  0000 C CNN
+F 2 "SM1812_1206" H 8850 2850 60  0001 C CNN
+F 3 "" H 8850 2850 60  0000 C CNN
+	1    8850 2850
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -330,8 +330,6 @@ Text Label 7850 1750 2    60   ~ 0
 DTR.B
 Text Label 7850 1300 2    60   ~ 0
 DTR.A
-Text Label 8000 3250 2    60   ~ 0
-GND.A
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 53C36104
@@ -421,17 +419,6 @@ F 3 "" H 2800 5400 30  0000 C CNN
 $EndComp
 Text Notes 1600 4700 0    60   ~ 0
 (2) Signal isolation if either \npower source is absent
-$Comp
-L CONN_4 P2.1
-U 1 1 53C36DBC
-P 7600 2900
-F 0 "P2.1" V 7550 2900 50  0000 C CNN
-F 1 "POWER" V 7650 2900 50  0000 C CNN
-F 2 "SIL-Headers:SIL-4" H 7600 2900 60  0001 C CNN
-F 3 "" H 7600 2900 60  0000 C CNN
-	1    7600 2900
-	-1   0    0    -1  
-$EndComp
 Text Label 8300 2700 0    60   ~ 0
 5V_raw
 Text Label 8850 1300 0    60   ~ 0
@@ -665,22 +652,20 @@ KEY.B
 Text Label 5750 2200 0    60   ~ 0
 VCC.B
 $Comp
-L CONN_2 P2.2
+L CONN_2 P2
 U 1 1 54D38AA3
-P 7600 3700
-F 0 "P2.2" V 7550 3700 40  0000 C CNN
-F 1 "POWER" V 7650 3700 40  0000 C CNN
-F 2 "SIL-Headers:SIL-2" H 7600 3700 60  0001 C CNN
-F 3 "" H 7600 3700 60  0000 C CNN
-	1    7600 3700
-	-1   0    0    -1  
+P 7600 2950
+F 0 "P2" V 7550 2950 40  0000 C CNN
+F 1 "POWER" V 7650 2950 40  0000 C CNN
+F 2 "RC-Battery-Connectors:Deans_mini-T_male" H 7600 2950 60  0001 C CNN
+F 3 "" H 7600 2950 60  0000 C CNN
+	1    7600 2950
+	-1   0    0    1   
 $EndComp
-Text Label 8000 3800 0    60   ~ 0
+Text Label 8300 3200 0    60   ~ 0
 GND.A
-Text Label 8000 3600 0    60   ~ 0
-5V_raw
-Text Notes 7500 4000 0    60   ~ 0
-(DEAN mini-T)
+Text Notes 7450 3250 0    60   ~ 0
+(Deans mini-T)
 Text Notes 6900 1150 0    118  ~ 0
 [B]
 Wire Wire Line
@@ -866,21 +851,7 @@ Wire Notes Line
 Wire Notes Line
 	3200 4400 3200 6700
 Wire Wire Line
-	7950 2750 8050 2750
-Wire Wire Line
 	7950 3050 9100 3050
-Wire Wire Line
-	8200 2950 7950 2950
-Wire Wire Line
-	7950 2850 8200 2850
-Wire Wire Line
-	8050 2750 8050 3250
-Connection ~ 8050 3050
-Connection ~ 8200 2900
-Wire Wire Line
-	8200 2850 8200 2950
-Wire Wire Line
-	8300 2900 8300 2700
 Wire Wire Line
 	8750 1400 8850 1400
 Wire Wire Line
@@ -929,10 +900,7 @@ Wire Wire Line
 	9850 2650 9850 2750
 Wire Wire Line
 	9400 3150 9400 3300
-Connection ~ 8300 2900
 Connection ~ 9400 2650
-Wire Wire Line
-	8050 3250 8000 3250
 Wire Wire Line
 	9550 3200 9550 3050
 Wire Wire Line
@@ -942,12 +910,6 @@ Wire Wire Line
 Connection ~ 9850 3300
 Wire Wire Line
 	9150 2650 9850 2650
-Wire Wire Line
-	9150 2650 9150 2900
-Wire Wire Line
-	9150 2900 9100 2900
-Wire Wire Line
-	8200 2900 8600 2900
 Wire Wire Line
 	9300 3700 9300 3900
 Wire Wire Line
@@ -1019,10 +981,6 @@ Wire Wire Line
 Connection ~ 9000 3050
 Wire Wire Line
 	9000 3200 9550 3200
-Wire Wire Line
-	7950 3600 8000 3600
-Wire Wire Line
-	7950 3800 8000 3800
 Wire Notes Line
 	6850 900  6850 1250
 Wire Notes Line
@@ -1061,4 +1019,20 @@ F 3 "" H 9100 3600 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9100 3600 9100 3700
+Wire Wire Line
+	7950 2850 8600 2850
+Wire Wire Line
+	9150 2650 9150 2850
+Wire Wire Line
+	9150 2850 9100 2850
+Wire Wire Line
+	8300 2700 8250 2700
+Wire Wire Line
+	8250 2700 8250 2850
+Connection ~ 8250 2850
+Wire Wire Line
+	8300 3200 8250 3200
+Wire Wire Line
+	8250 3200 8250 3050
+Connection ~ 8250 3050
 $EndSCHEMATC
