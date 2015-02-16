@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Thu 12 Feb 2015"
-Rev "0.50"
+Date "Mon 16 Feb 2015"
+Rev "0.51"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -109,7 +109,6 @@ XTAL2
 NoConn ~ 3300 2800
 NoConn ~ 3300 2900
 NoConn ~ 5200 3750
-NoConn ~ 5200 3650
 NoConn ~ 5200 3450
 NoConn ~ 5200 2700
 NoConn ~ 5200 2600
@@ -327,9 +326,9 @@ GND.B
 Text Label 5850 4000 2    60   ~ 0
 GND.B
 Text Label 7850 1750 2    60   ~ 0
-DTR.B
+STATE.B
 Text Label 7850 1300 2    60   ~ 0
-DTR.A
+STATE.A
 $Comp
 L PWR_FLAG #FLG03
 U 1 1 53C36104
@@ -616,7 +615,7 @@ F 3 "" H 10700 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 6400 4800 0    60   ~ 0
-DTR.A
+STATE.A
 $Comp
 L BT-Radio_HC-05 BT-Radio1
 U 1 1 54D124E2
@@ -1035,4 +1034,31 @@ Wire Wire Line
 Wire Wire Line
 	8250 3200 8250 3050
 Connection ~ 8250 3050
+Text Label 6300 2500 0    60   ~ 0
+STATE.B
+Text Label 7000 2500 2    60   ~ 0
+DTR.B
+$Comp
+L JUMPER JP2
+U 1 1 54E26F3D
+P 6650 2250
+F 0 "JP2" H 6650 2400 60  0000 C CNN
+F 1 "BT-PROG_EN" H 6650 2170 40  0000 C CNN
+F 2 "my_parts:MADW__SMD-solder-bridge-narrow" H 6650 2250 60  0001 C CNN
+F 3 "" H 6650 2250 60  0000 C CNN
+	1    6650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2250 7000 2250
+Wire Wire Line
+	7000 2250 7000 2500
+Wire Wire Line
+	6350 2250 6300 2250
+Wire Wire Line
+	6300 2250 6300 2500
+Text Label 5300 3650 0    60   ~ 0
+STATE.B
+Wire Wire Line
+	5200 3650 5300 3650
 $EndSCHEMATC

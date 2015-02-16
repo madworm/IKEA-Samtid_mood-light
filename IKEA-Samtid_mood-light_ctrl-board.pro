@@ -1,14 +1,14 @@
-update=Mon 04 Aug 2014 09:44:40 PM CEST
+update=Mon 16 Feb 2015 08:44:41 PM CET
 last_client=pcbnew
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=../../../../../Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.net
+LastNetListRead=IKEA-Samtid_mood-light.net
 UseCmpFile=1
-PadDrill=0.3556
-PadDrillOvalY=0.3556
-PadSizeH=0.7111999999999999
-PadSizeV=0.7111999999999999
+PadDrill=0.381
+PadDrillOvalY=0.381
+PadSizeH=0.762
+PadSizeV=0.762
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.2
