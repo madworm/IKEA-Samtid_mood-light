@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-16 BZR 5425)-product   date = Mon 16 Feb 2015 08:32:06 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-18 BZR 5431)-product   date = Sat 21 Feb 2015 10:20:56 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -515,7 +515,7 @@ BeginCmp
 TimeStamp = /54E26F3D;
 Reference = JP2;
 ValeurCmp = BT-PROG_EN;
-IdModule  = my_parts:MADW__SMD-solder-bridge-narrow;
+IdModule  = SIL-Headers:SIL-2-1.27mm;
 EndCmp
 
 BeginCmp
