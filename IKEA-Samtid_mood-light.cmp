@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-18 BZR 5431)-product   date = Sat 21 Feb 2015 10:20:56 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-24 BZR 5451)-product   date = Wed 25 Feb 2015 12:14:51 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -501,7 +501,7 @@ BeginCmp
 TimeStamp = /53C14D61;
 Reference = IC1;
 ValeurCmp = ATMEGA168PA-M;
-IdModule  = SMD_Packages:QFN-32-1EP;
+IdModule  = Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Sun 13 Jul 2014 06:44:51 PM CEST
+update=Wed 25 Feb 2015 12:47:08 PM CET
 version=1
 last_client=kicad
 [general]
@@ -8,26 +8,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=IKEA-Samtid_mood-light.net
-UseCmpFile=1
-PadDrill=0
-PadDrillOvalY=0
-PadSizeH=1.4
-PadSizeV=1.8
-PcbTextSizeV=1
-PcbTextSizeH=1
-PcbTextThickness=0.2
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.2
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.2
-ModuleOutlineThickness=0.2
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +53,23 @@ LibName28=siliconi
 LibName29=opto
 LibName30=contrib
 LibName31=valves
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=IKEA-Samtid_mood-light.net
+UseCmpFile=1
+PadDrill=1.016
+PadDrillOvalY=1.016
+PadSizeH=1.65
+PadSizeV=1.65
+PcbTextSizeV=1
+PcbTextSizeH=1
+PcbTextThickness=0.2
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.2
+SolderMaskClearance=0.025
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.2
+ModuleOutlineThickness=0.2

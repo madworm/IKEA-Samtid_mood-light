@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source /home/robert/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.sch)
-    (date "Sat 21 Feb 2015 10:20:41 PM CET")
-    (tool "Eeschema (2015-02-18 BZR 5431)-product"))
+    (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.sch)
+    (date "Wed 25 Feb 2015 12:15:10 PM CET")
+    (tool "Eeschema (2015-02-24 BZR 5451)-product"))
   (components
     (comp (ref C1)
       (value 1µF)
@@ -36,7 +36,7 @@
       (tstamp 53C088B5))
     (comp (ref IC1)
       (value ATMEGA168PA-M)
-      (footprint SMD_Packages:QFN-32-1EP)
+      (footprint Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm)
       (libsource (lib my_parts) (part ATMEGA168PA-M))
       (sheetpath (names /) (tstamps /))
       (tstamp 53C14D61))

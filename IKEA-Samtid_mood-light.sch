@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Mon 16 Feb 2015"
+Date "Wed 25 Feb 2015"
 Rev "0.51"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
@@ -183,7 +183,7 @@ U 1 1 53C14D61
 P 4200 2550
 F 0 "IC1" H 3450 3800 40  0000 L BNN
 F 1 "ATMEGA168PA-M" H 4600 1150 40  0000 L BNN
-F 2 "SMD_Packages:QFN-32-1EP" H 4200 1200 30  0001 C CIN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4200 1200 30  0001 C CIN
 F 3 "" H 4200 2550 60  0000 C CNN
 	1    4200 2550
 	1    0    0    -1  
