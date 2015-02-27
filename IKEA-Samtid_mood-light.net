@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light.sch)
-    (date "Wed 25 Feb 2015 12:15:10 PM CET")
-    (tool "Eeschema (2015-02-24 BZR 5451)-product"))
+    (date "Fri 27 Feb 2015 12:57:42 AM CET")
+    (tool "Eeschema (2015-02-26 BZR 5453)-product"))
   (components
     (comp (ref C1)
       (value 1µF)
@@ -170,7 +170,7 @@
       (tstamp 54D38AA3))
     (comp (ref JP2)
       (value BT-PROG_EN)
-      (footprint SIL-Headers:SIL-2-1.27mm)
+      (footprint DIL-Headers:DIL-2-2.00mm_male_vert_SMD_PH2M15-2XX-U)
       (libsource (lib device) (part JUMPER))
       (sheetpath (names /) (tstamps /))
       (tstamp 54E26F3D))

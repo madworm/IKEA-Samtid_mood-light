@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-24 BZR 5451)-product   date = Wed 25 Feb 2015 12:14:51 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-02-26 BZR 5453)-product   date = Fri 27 Feb 2015 12:56:11 AM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -515,7 +515,7 @@ BeginCmp
 TimeStamp = /54E26F3D;
 Reference = JP2;
 ValeurCmp = BT-PROG_EN;
-IdModule  = SIL-Headers:SIL-2-1.27mm;
+IdModule  = DIL-Headers:DIL-2-2.00mm_male_vert_SMD_PH2M15-2XX-U;
 EndCmp
 
 BeginCmp
