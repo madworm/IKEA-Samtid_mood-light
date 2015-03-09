@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Wed 25 Feb 2015"
-Rev "0.51"
+Date "Mon 09 Mar 2015"
+Rev "0.52"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -1061,4 +1061,28 @@ Text Label 5300 3650 0    60   ~ 0
 STATE.B
 Wire Wire Line
 	5200 3650 5300 3650
+$Comp
+L CONN_5 P3
+U 1 1 54FD9E49
+P 7600 3750
+F 0 "P3" V 7550 3750 50  0000 C CNN
+F 1 "POWER" V 7650 3750 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 7600 3750 60  0001 C CNN
+F 3 "" H 7600 3750 60  0000 C CNN
+	1    7600 3750
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8000 3650
+NoConn ~ 8000 3750
+NoConn ~ 8000 3850
+Text Label 8100 3950 0    60   ~ 0
+GND.A
+Text Label 8100 3550 0    60   ~ 0
+5V_raw
+Wire Wire Line
+	8000 3550 8100 3550
+Wire Wire Line
+	8000 3950 8100 3950
+Text Notes 7450 4150 0    60   ~ 0
+(Molex KK)
 $EndSCHEMATC

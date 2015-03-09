@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-02-26 BZR 5453)-product   date = Fri 27 Feb 2015 12:56:11 AM CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-09 BZR 5486)-product   date = Mon 09 Mar 2015 02:02:37 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -978,6 +978,13 @@ TimeStamp = /54D38AA3;
 Reference = P2;
 ValeurCmp = POWER;
 IdModule  = RC-Battery-Connectors:Deans_mini-T_male;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FD9E49;
+Reference = P3;
+ValeurCmp = POWER;
+IdModule  = Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight;
 EndCmp
 
 BeginCmp
