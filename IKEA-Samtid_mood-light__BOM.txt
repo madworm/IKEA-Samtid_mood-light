@@ -1,31 +1,32 @@
-Bill of materials:
-------------------
+Bill of materials (populated parts only):
+-----------------------------------------
 
-C1		1µF, 10V, 0805
-C2		100nF, 10V, 0805
-C5-C68		1µF, 10V, 0805
+BT-Radio1	HC-05 [JY-MCU], "ZS-040" - see 'Docs' folder for images!
+C1,C3,C5-C68	1µF, 10V, 0805
+C2		1nF-ish (whatever works most reliably), 10V, 0805
 DS1		SS14L, sub-SMA
+F1		3A polyswitch, 1812
+IC1		ATmega168PA-M, QFN32
+JP2		DIL-2, 2.00mm, male, vert, SMD, PH2M15-2XX-U
 LED1-64		WS2812B, PLCC4-5050
 LED65		LED, 0603
-IC1		ATmega168PA-M, QFN32
-Q1, Q2		BSS138, SOT23
-R1		1k, 0603
-R2		100k, 0603
-Rp1,Rp2		1.5k, 0603
-SW1,SW2		push button, SMD, 3.7x6.0mm (digikey: CKN10384CT-ND, similar ones very cheap on ebay!)
-X1		oscillator, 16MHz, CSTCE16M0V53-R0
+P2		Deans, "mini-T", male (RC battery connector, HobbyKing)
+P3		Molex KK, 2.54mm, straight, 5-pin (3 center pins removed), optional to P2
 P3.1		micro-MaTch, 0-188275-4, SMD, 4-pin, female
 P3.2		micro-MaTch, 0-215464-4, TH, 4-pin, male
 P4.1		micro-MaTch, 0-188275-4, SMD, 4-pin, female
 P4.2		micro-MaTch, 0-215464-4, TH, 4-pin, male
+Q1, Q2		BSS138, SOT23
+Q3, Q4		IRLML6401PbF or equivalent (LOW Rds-on), p-ch MOSFET, SOT23
+R1		1k, 0603
+R2		10k, 0603
+Rp1,Rp2		1.5k, 0603
+SW1,SW2		push button, SMD, 3.7x6.0mm (digikey: CKN10384CT-ND, similar ones very cheap on ebay!)
+U1		AP2204K, 3.3V, SOT23-5 / TS 5205 CX533, 3.3V, SOT23-5
+X1		oscillator, 16MHz, CSTCE16M0V53-R0
 
 
-optional but suggested:
------------------------
 
-reverse-polarity + over-current protection
 
-Q3, Q4		IRLML6401PbF, SOT23
-R3, R4		100k, 0603
-F1		poly-fuse, 3A, 1812
+
 

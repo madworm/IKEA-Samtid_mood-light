@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-09 BZR 5486)-product   date = Mon 09 Mar 2015 02:02:37 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-09 BZR 5487)-product   date = Mon 09 Mar 2015 09:48:35 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
@@ -474,13 +474,6 @@ TimeStamp = /53C16B71/53C250CF;
 Reference = C68;
 ValeurCmp = 1µF;
 IdModule  = my_parts:MADW__C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53D25751;
-Reference = D65;
-ValeurCmp = LED;
-IdModule  = my_parts:MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
@@ -964,6 +957,13 @@ TimeStamp = /53C16B71/53C25489;
 Reference = LED64;
 ValeurCmp = WS2812B;
 IdModule  = WS2812B:WS2812B_data-bridgeable;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D25751;
+Reference = LED65;
+ValeurCmp = LED;
+IdModule  = my_parts:MADW__CHIPLED-0603;
 EndCmp
 
 BeginCmp
