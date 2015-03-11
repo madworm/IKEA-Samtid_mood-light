@@ -6,6 +6,11 @@ LAYOUT FILES: Circular extension board for IKEA Samtid lamps (*).
 
 WS2812B-based Arduino compatible RGB ring light. 
 
+Remote control with:
+
+* HC-05 bluetooth module (native).
+* ESP8266 with adapter PCB & 3.3V regulator (WIP).
+
 [![image](/Docs/V027a_lit-up.jpg)](/Docs/V027a_lit-up.jpg)
 
 
