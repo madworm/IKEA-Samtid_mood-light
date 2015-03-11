@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-09 BZR 5487)-product   date = Mon 09 Mar 2015 09:48:35 PM CET
+Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5504)-product   date = Wed 11 Mar 2015 06:37:04 PM CET
 
 BeginCmp
 TimeStamp = /54D124E2;
 Reference = BT-Radio1;
-ValeurCmp = HC-05 [JY-MCU];
+ValeurCmp = HC-05;
 IdModule  = SIL-Headers:SIL-6;
 EndCmp
 
@@ -509,6 +509,13 @@ TimeStamp = /54E26F3D;
 Reference = JP2;
 ValeurCmp = BT-PROG_EN;
 IdModule  = DIL-Headers:DIL-2-2.00mm_male_vert_SMD_PH2M15-2XX-U;
+EndCmp
+
+BeginCmp
+TimeStamp = /55007989;
+Reference = JP3;
+ValeurCmp = BT:5V(3.3);
+IdModule  = my_parts:SMD-solder-bridge-3pin;
 EndCmp
 
 BeginCmp

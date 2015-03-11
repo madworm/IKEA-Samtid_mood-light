@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "IKEA-Samtid_mood-light"
-Date "Tue 10 Mar 2015"
-Rev "0.52"
+Date "Wed 11 Mar 2015"
+Rev "0.54"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -230,7 +230,7 @@ F 3 "" H 6300 3800 60  0000 C CNN
 	1    6300 3800
 	1    0    0    -1  
 $EndComp
-Text Notes 550  7400 0    39   ~ 0
+Text Notes 550  7300 0    39   ~ 0
 (1) make sure no power flows backwards to the LEDs when just the programmer is connected.
 NoConn ~ 3300 2050
 Text Label 7850 1400 2    60   ~ 0
@@ -283,9 +283,9 @@ F 3 "" H 10050 1750 60  0000 C CNN
 	1    10050 1750
 	-1   0    0    -1  
 $EndComp
-Text Notes 550  7700 0    39   ~ 0
-(4) micro-Match 2x2, 2.54mm / 1.27mm, male, TH, daughter-board (AMP PN: 215464-4)
 Text Notes 550  7600 0    39   ~ 0
+(4) micro-Match 2x2, 2.54mm / 1.27mm, male, TH, daughter-board (AMP PN: 215464-4)
+Text Notes 550  7500 0    39   ~ 0
 (3) micro-Match 2x2, 2.54mm / 1.27mm, female, SMD, main-board (AMP PN: 188275-4)
 Text Notes 8300 1400 0    39   ~ 0
 (3)
@@ -295,7 +295,7 @@ Text Notes 10000 1400 0    39   ~ 0
 (3)
 Text Notes 10000 1800 0    39   ~ 0
 (4)
-Text Notes 550  7500 0    39   ~ 0
+Text Notes 550  7400 0    39   ~ 0
 (2) We don't want any power bleeding through input clamping diodes when just the programmer is connected and the main power supply if off.
 Text Label 8850 1400 0    60   ~ 0
 VCC.A
@@ -570,8 +570,8 @@ GND.A
 NoConn ~ 10200 3800
 Text Label 10300 3700 0    60   ~ 0
 VCC.A
-Text Notes 9600 4100 0    60   ~ 0
-(3.3V)
+Text Notes 9450 4050 0    39   ~ 0
+(3.3V, 150mA max.)
 $Comp
 L PWR_FLAG #FLG08
 U 1 1 54CF66C2
@@ -594,8 +594,8 @@ F 3 "" H 10000 3250 60  0000 C CNN
 	1    10000 3250
 	1    0    0    -1  
 $EndComp
-Text Notes 8600 4000 0    39   ~ 0
-prevent backfeeding\nof power
+Text Notes 8500 4000 0    39   ~ 0
+(1) prevent backfeeding\n    of power
 NoConn ~ 5200 3250
 NoConn ~ 9650 1400
 NoConn ~ 9650 1800
@@ -616,30 +616,30 @@ F 3 "" H 10700 3800 60  0000 C CNN
 	1    10700 3800
 	1    0    0    -1  
 $EndComp
-Text Label 6400 4800 0    60   ~ 0
+Text Label 6400 5100 0    60   ~ 0
 STATE.A
 $Comp
 L BT-Radio_HC-05 BT-Radio1
 U 1 1 54D124E2
 P 5950 5050
 F 0 "BT-Radio1" H 5950 4600 60  0000 C CNN
-F 1 "HC-05 [JY-MCU]" H 5750 5500 60  0000 C CNN
+F 1 "HC-05" H 5950 5450 60  0000 C CNN
 F 2 "SIL-Headers:SIL-6" H 6000 5050 60  0001 C CNN
 F 3 "" H 6000 5050 60  0000 C CNN
 	1    5950 5050
 	-1   0    0    -1  
 $EndComp
-Text Label 6400 5100 0    60   ~ 0
+Text Label 6400 4800 0    60   ~ 0
 KEY.A
 $Comp
 L +5V #PWR010
 U 1 1 54D136E9
-P 6400 5250
-F 0 "#PWR010" H 6400 5340 20  0001 C CNN
-F 1 "+5V" H 6400 5340 30  0000 C CNN
-F 2 "" H 6400 5250 60  0000 C CNN
-F 3 "" H 6400 5250 60  0000 C CNN
-	1    6400 5250
+P 7400 5250
+F 0 "#PWR010" H 7400 5340 20  0001 C CNN
+F 1 "+5V" H 7400 5340 30  0000 C CNN
+F 2 "" H 7400 5250 60  0000 C CNN
+F 3 "" H 7400 5250 60  0000 C CNN
+	1    7400 5250
 	1    0    0    -1  
 $EndComp
 Text Notes 5700 5800 0    60   ~ 0
@@ -669,6 +669,82 @@ Text Notes 7450 3250 0    60   ~ 0
 (Deans mini-T)
 Text Notes 6900 1150 0    118  ~ 0
 [B]
+$Comp
+L +5V #PWR011
+U 1 1 54CF65EE
+P 10700 3050
+F 0 "#PWR011" H 10700 3140 20  0001 C CNN
+F 1 "+5V" H 10700 3140 30  0000 C CNN
+F 2 "" H 10700 3050 60  0000 C CNN
+F 3 "" H 10700 3050 60  0000 C CNN
+	1    10700 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L PWR_FLAG #FLG012
+U 1 1 54D5CFD8
+P 9100 3600
+F 0 "#FLG012" H 9100 3695 30  0001 C CNN
+F 1 "PWR_FLAG" H 9100 3780 30  0000 C CNN
+F 2 "" H 9100 3600 60  0000 C CNN
+F 3 "" H 9100 3600 60  0000 C CNN
+	1    9100 3600
+	1    0    0    -1  
+$EndComp
+Text Label 6300 2500 0    60   ~ 0
+STATE.B
+Text Label 7000 2500 2    60   ~ 0
+DTR.B
+$Comp
+L JUMPER JP2
+U 1 1 54E26F3D
+P 6650 2250
+F 0 "JP2" H 6650 2400 60  0000 C CNN
+F 1 "BT-PROG_EN" H 6650 2170 40  0000 C CNN
+F 2 "DIL-Headers:DIL-2-2.00mm_male_vert_SMD_PH2M15-2XX-U" H 6650 2250 60  0001 C CNN
+F 3 "" H 6650 2250 60  0000 C CNN
+	1    6650 2250
+	1    0    0    -1  
+$EndComp
+Text Label 5300 3650 0    60   ~ 0
+STATE.B
+$Comp
+L CONN_5 P3
+U 1 1 54FD9E49
+P 7600 3750
+F 0 "P3" V 7550 3750 50  0000 C CNN
+F 1 "POWER" V 7650 3750 50  0000 C CNN
+F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 7600 3750 60  0001 C CNN
+F 3 "" H 7600 3750 60  0000 C CNN
+	1    7600 3750
+	-1   0    0    1   
+$EndComp
+NoConn ~ 8000 3650
+NoConn ~ 8000 3750
+NoConn ~ 8000 3850
+Text Label 8100 3950 0    60   ~ 0
+GND.A
+Text Label 8100 3550 0    60   ~ 0
+5V_raw
+Text Notes 7450 4150 0    60   ~ 0
+(Molex KK)
+$Comp
+L JUMPER3 JP3
+U 1 1 55007989
+P 7100 5550
+F 0 "JP3" H 7050 5700 40  0000 L CNN
+F 1 "BT:5V(3.3)" H 7300 5200 40  0000 C CNN
+F 2 "my_parts:SMD-solder-bridge-3pin" H 7100 5550 60  0001 C CNN
+F 3 "" H 7100 5550 60  0000 C CNN
+	1    7100 5550
+	-1   0    0    1   
+$EndComp
+Text Label 6800 5550 2    60   ~ 0
+VCC.A
+Text Notes 7400 5800 2    39   ~ 0
+(solder bridge) (5)
+Text Notes 550  7700 0    39   ~ 0
+(5) jumper to 5V and use separate regulator on daughter-board, if I > 150mA needed!
 Wire Wire Line
 	2800 2950 2800 3100
 Wire Wire Line
@@ -942,8 +1018,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 4000 10700 4000
 Wire Wire Line
-	6300 5250 6400 5250
-Wire Wire Line
 	6400 5350 6300 5350
 Wire Wire Line
 	6300 4800 6400 4800
@@ -954,13 +1028,7 @@ Wire Wire Line
 Wire Wire Line
 	6300 5100 6400 5100
 Wire Notes Line
-	5500 4400 6800 4400
-Wire Notes Line
 	5500 4400 5500 5900
-Wire Notes Line
-	5500 5900 6800 5900
-Wire Notes Line
-	6800 5900 6800 4400
 Wire Wire Line
 	9550 1300 9650 1300
 Wire Wire Line
@@ -994,30 +1062,8 @@ Wire Notes Line
 	10950 4250 10950 2200
 Wire Notes Line
 	10950 2200 7400 2200
-$Comp
-L +5V #PWR011
-U 1 1 54CF65EE
-P 10700 3050
-F 0 "#PWR011" H 10700 3140 20  0001 C CNN
-F 1 "+5V" H 10700 3140 30  0000 C CNN
-F 2 "" H 10700 3050 60  0000 C CNN
-F 3 "" H 10700 3050 60  0000 C CNN
-	1    10700 3050
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10700 2950 10700 3050
-$Comp
-L PWR_FLAG #FLG012
-U 1 1 54D5CFD8
-P 9100 3600
-F 0 "#FLG012" H 9100 3695 30  0001 C CNN
-F 1 "PWR_FLAG" H 9100 3780 30  0000 C CNN
-F 2 "" H 9100 3600 60  0000 C CNN
-F 3 "" H 9100 3600 60  0000 C CNN
-	1    9100 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 3600 9100 3700
 Wire Wire Line
@@ -1036,21 +1082,6 @@ Wire Wire Line
 Wire Wire Line
 	8250 3200 8250 3050
 Connection ~ 8250 3050
-Text Label 6300 2500 0    60   ~ 0
-STATE.B
-Text Label 7000 2500 2    60   ~ 0
-DTR.B
-$Comp
-L JUMPER JP2
-U 1 1 54E26F3D
-P 6650 2250
-F 0 "JP2" H 6650 2400 60  0000 C CNN
-F 1 "BT-PROG_EN" H 6650 2170 40  0000 C CNN
-F 2 "DIL-Headers:DIL-2-2.00mm_male_vert_SMD_PH2M15-2XX-U" H 6650 2250 60  0001 C CNN
-F 3 "" H 6650 2250 60  0000 C CNN
-	1    6650 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6950 2250 7000 2250
 Wire Wire Line
@@ -1059,32 +1090,39 @@ Wire Wire Line
 	6350 2250 6300 2250
 Wire Wire Line
 	6300 2250 6300 2500
-Text Label 5300 3650 0    60   ~ 0
-STATE.B
 Wire Wire Line
 	5200 3650 5300 3650
-$Comp
-L CONN_5 P3
-U 1 1 54FD9E49
-P 7600 3750
-F 0 "P3" V 7550 3750 50  0000 C CNN
-F 1 "POWER" V 7650 3750 50  0000 C CNN
-F 2 "Sockets_MOLEX_KK-System:Socket_MOLEX-KK-RM2-54mm_Lock_5pin_straight" H 7600 3750 60  0001 C CNN
-F 3 "" H 7600 3750 60  0000 C CNN
-	1    7600 3750
-	-1   0    0    1   
-$EndComp
-NoConn ~ 8000 3650
-NoConn ~ 8000 3750
-NoConn ~ 8000 3850
-Text Label 8100 3950 0    60   ~ 0
-GND.A
-Text Label 8100 3550 0    60   ~ 0
-5V_raw
 Wire Wire Line
 	8000 3550 8100 3550
 Wire Wire Line
 	8000 3950 8100 3950
-Text Notes 7450 4150 0    60   ~ 0
-(Molex KK)
+Wire Wire Line
+	6850 5550 6800 5550
+Wire Wire Line
+	7400 5250 7400 5550
+Wire Wire Line
+	7400 5550 7350 5550
+Wire Notes Line
+	5500 5900 7550 5900
+Wire Notes Line
+	7550 5900 7550 4400
+Wire Notes Line
+	7550 4400 5500 4400
+Wire Wire Line
+	7100 5250 7100 5450
+Wire Wire Line
+	6300 5250 7100 5250
+Wire Notes Line
+	7100 5250 7400 5250
+$Comp
+L PWR_FLAG #FLG013
+U 1 1 5500AFBC
+P 7100 5250
+F 0 "#FLG013" H 7100 5345 30  0001 C CNN
+F 1 "PWR_FLAG" H 7100 5430 30  0000 C CNN
+F 2 "" H 7100 5250 60  0000 C CNN
+F 3 "" H 7100 5250 60  0000 C CNN
+	1    7100 5250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
