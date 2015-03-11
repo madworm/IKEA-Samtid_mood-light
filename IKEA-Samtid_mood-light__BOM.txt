@@ -7,7 +7,7 @@ C2		1nF-ish (whatever works most reliably), 10V, 0805
 DS1		SS14L, sub-SMA
 F1		3A polyswitch, 1812
 IC1		ATmega168PA-M, QFN32
-JP2		DIL-2, 2.00mm, male, vert, SMD, PH2M15-2XX-U
+JP2		DIL-2, 2.00mm, male, vert, SMD, PH2M15-2XX-U + 2mm low-profile jumper
 LED1-64		WS2812B, PLCC4-5050
 LED65		LED, 0603
 P2		Deans, "mini-T", male (RC battery connector, HobbyKing)
