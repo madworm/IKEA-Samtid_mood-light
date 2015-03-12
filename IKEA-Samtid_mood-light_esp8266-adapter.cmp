@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-11 BZR 5507)-product   date = Thu 12 Mar 2015 12:59:02 PM CET
+
+BeginCmp
+TimeStamp = /5501783A;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = my_parts:MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550178B7;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = my_parts:MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55017A7D;
+Reference = P1;
+ValeurCmp = ESP8266;
+IdModule  = DIL-Headers:DIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /55017B34;
+Reference = P2;
+ValeurCmp = mood-light;
+IdModule  = SIL-Headers:SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /5501763B;
+Reference = U1;
+ValeurCmp = AMS1117-3.3;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+EndListe
