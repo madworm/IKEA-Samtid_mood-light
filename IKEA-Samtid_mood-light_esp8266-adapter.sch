@@ -37,8 +37,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "IKEA-Samtid_mood-light_esp8266-adapter"
-Date "Thu 12 Mar 2015"
-Rev "0.2"
+Date "Fri 13 Mar 2015"
+Rev "0.3"
 Comp "2015 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -108,9 +108,9 @@ F 3 "" H 5300 4550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 4100 4250 2    60   ~ 0
-RXI
-Text Label 4100 4150 2    60   ~ 0
 TXO
+Text Label 4100 4150 2    60   ~ 0
+RXI
 $Comp
 L GND #PWR02
 U 1 1 550182FC
@@ -384,9 +384,9 @@ RST
 Wire Wire Line
 	4200 4850 4250 4850
 Text Label 5800 4700 0    60   ~ 0
-TXO
-Text Label 5800 4600 0    60   ~ 0
 RXI
+Text Label 5800 4600 0    60   ~ 0
+TXO
 Text Label 5800 4300 0    60   ~ 0
 RST
 Text Label 5800 4800 0    60   ~ 0

@@ -1,14 +1,14 @@
 (export (version D)
   (design
-    (source /home/robert/Electronics/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light_esp8266-adapter.sch)
-    (date "Thu 12 Mar 2015 02:49:04 PM CET")
-    (tool "Eeschema (2015-03-11 BZR 5507)-product")
+    (source /home/robert/Arduino/KiCAD/Projects/IKEA-Samtid_mood-light/IKEA-Samtid_mood-light_esp8266-adapter.sch)
+    (date "Fri 13 Mar 2015 04:45:54 PM CET")
+    (tool "Eeschema (2015-03-12 BZR 5508)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title IKEA-Samtid_mood-light_esp8266-adapter)
         (company "2015 - blog.spitzenpfeil.org")
-        (rev 0.2)
-        (date "Thu 12 Mar 2015")
+        (rev 0.3)
+        (date "Fri 13 Mar 2015")
         (source IKEA-Samtid_mood-light_esp8266-adapter.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -70,6 +70,43 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5501AB56)))
   (libparts
+    (libpart (lib my_parts) (part ESP8266-01)
+      (description "ESP8266-01 WiFi module")
+      (footprints
+        (fp DIL-4))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) ESP8266-01))
+      (pins
+        (pin (num 1) (name RXI) (type input))
+        (pin (num 2) (name VCC) (type power_in))
+        (pin (num 3) (name GPIO0) (type 3state))
+        (pin (num 4) (name RST) (type input))
+        (pin (num 5) (name GPIO2) (type 3state))
+        (pin (num 6) (name CH_PD) (type input))
+        (pin (num 7) (name GND) (type power_in))
+        (pin (num 8) (name TXO) (type output))))
+    (libpart (lib my_parts) (part MADW__AMS1117)
+      (description "Linear Regulator (adjustable)")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MADW__AMS1117))
+      (pins
+        (pin (num 1) (name GND/ADJ) (type passive))
+        (pin (num 2) (name OUT) (type power_out))
+        (pin (num 3) (name IN) (type power_in))))
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part R)
       (description Resistance)
       (footprints
@@ -84,27 +121,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib my_parts) (part MADW__AMS1117)
-      (description "Linear Regulator (adjustable)")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) MADW__AMS1117))
-      (pins
-        (pin (num 1) (name GND/ADJ) (type passive))
-        (pin (num 2) (name OUT) (type power_out))
-        (pin (num 3) (name IN) (type power_in))))
     (libpart (lib conn) (part CONN_6)
       (description "ymbole general de connecteur")
       (fields
@@ -116,30 +132,14 @@
         (pin (num 3) (name 3) (type passive))
         (pin (num 4) (name 4) (type passive))
         (pin (num 5) (name 5) (type passive))
-        (pin (num 6) (name 6) (type passive))))
-    (libpart (lib my_parts) (part ESP8266-01)
-      (description "ESP8266-01 WiFi module")
-      (footprints
-        (fp DIL-4))
-      (fields
-        (field (name Reference) IC)
-        (field (name Value) ESP8266-01))
-      (pins
-        (pin (num 1) (name RXI) (type input))
-        (pin (num 2) (name VCC) (type power_in))
-        (pin (num 3) (name GPIO0) (type 3state))
-        (pin (num 4) (name RST) (type input))
-        (pin (num 5) (name GPIO2) (type 3state))
-        (pin (num 6) (name CH_PD) (type input))
-        (pin (num 7) (name GND) (type power_in))
-        (pin (num 8) (name TXO) (type output)))))
+        (pin (num 6) (name 6) (type passive)))))
   (libraries
+    (library (logical my_parts)
+      (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
-    (library (logical my_parts)
-      (uri /home/robert/Arduino/KiCAD/LIBS/my_parts.lib)))
+      (uri /usr/share/kicad/library/conn.lib)))
   (nets
     (net (code 1) (name "Net-(P1-Pad5)")
       (node (ref R1) (pin 2))
@@ -173,9 +173,9 @@
       (node (ref P1) (pin 2))
       (node (ref C2) (pin 1))
       (node (ref R3) (pin 1)))
-    (net (code 8) (name /TXO)
+    (net (code 8) (name /RXI)
       (node (ref P1) (pin 1))
       (node (ref P2) (pin 5)))
-    (net (code 9) (name /RXI)
+    (net (code 9) (name /TXO)
       (node (ref P1) (pin 8))
       (node (ref P2) (pin 4)))))
