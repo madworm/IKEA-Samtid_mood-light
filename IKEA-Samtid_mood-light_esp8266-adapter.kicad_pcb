@@ -333,6 +333,11 @@
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
+    (model smd/SOT223.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 0.4 0.4 0.4))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module my_parts:MADW__C0805 (layer B.Cu) (tedit 55018155) (tstamp 55017FC8)
