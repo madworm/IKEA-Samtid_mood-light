@@ -3,7 +3,7 @@ Bill of materials (populated parts only):
 
 BT-Radio1	HC-05 [JY-MCU], "ZS-040" - see 'Docs' folder for images!
 C1,C3,C5-C68	1µF, 10V, 0805
-C2		1nF-ish (whatever works most reliably), 10V, 0805
+C2		1nF-ish (whatever works most reliably), 50V, 0805
 DS1		SS14L, sub-SMA
 F1		3A polyswitch, 1812
 IC1		ATmega168PA-M, QFN32
