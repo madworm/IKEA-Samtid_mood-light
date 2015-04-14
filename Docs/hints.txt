@@ -13,7 +13,8 @@ Soldering:
 
 * Be extremely careful with temperature when soldering the WS2812B LEDs.
   They die quite quickly if T is too high and exposure to heat is too long.
-  Read the 'reflow' section of the datasheet.
+  Read the 'reflow' section of the datasheet. I use 240°C tip temperature.
+  255°C is too much.
 
 * Try not to apply to much physical pressure when handsoldering. When the pads
   are heated for the solder to melt, the plastic body becomes soft. In this
