@@ -2,10 +2,23 @@
 Electrical connections:
 -----------------------
 
-Total current consumption is 2.75A (100% white, all LEDs on), so a 5V,3A power
-supply is sufficient. Much easier to get and smaller than 5A or more.
+Total current consumption is about 3A (100% white, all LEDs on), so a 5V,3A power
+supply may be sufficient. If you can get a stronger one, do so.
 
 * Use thick wires. The voltage drop at 2.5A across thin ones is significant.
+
+
+Issues with WS2812B LEDs:
+-------------------------
+
+* Sometimes these things fail ("dead on arrival").
+
+* If you don't get ANY light whatsoever, consider replacing the very
+  first LED in the chain (LED1).
+
+* If you have an oscilloscope (or logic analyzer), check the data line
+  before and after suspicious LEDs. Sometimes the "sender" is bad (but
+  still lights up), sometimes the receiver is bad.
 
 
 Soldering:
