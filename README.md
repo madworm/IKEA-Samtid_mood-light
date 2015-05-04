@@ -14,7 +14,12 @@ Remote control with:
 [![image](/Docs/V027a_lit-up.jpg)](/Docs/V027a_lit-up.jpg)
 
 
-Hardware releases: [V0.27.a](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/V0.27.a) (see 'Docs' on master branch for hints/errata).
+Hardware releases: 
+
+* [V0.27.a](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/V0.27.a): basic mood light
+* [Final](https://github.com/madworm/IKEA-Samtid_mood-light/releases/tag/Final): upgraded with Bluetooth/WiFi option
+
+See 'Docs' on master branch for hints/errata!
 
 Firmware [repository](https://github.com/madworm/IKEA-Samtid_mood-light_FW) & Arduino setup files.
 Works with Adafruit [NeoPixel](https://github.com/adafruit/Adafruit_NeoPixel) library.
