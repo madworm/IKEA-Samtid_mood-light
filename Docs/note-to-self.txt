@@ -1,0 +1,3 @@
+
+* Use ATmega328P-MU (QFN32) as MCU. The 168 has RAM issues with all the WiFi code added.
+
